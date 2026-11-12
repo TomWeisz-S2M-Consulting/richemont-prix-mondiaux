@@ -1,0 +1,167 @@
+[
+ {
+  "id": "garage",
+  "question": {
+   "fr": "Y a-t-il un garage ou un parking ?",
+   "en": "Is there a garage or parking?",
+   "de": "Gibt es eine Garage oder einen Parkplatz?",
+   "it": "C'è un garage o un parcheggio?",
+   "ru": "Есть ли гараж или парковка?"
+  },
+  "reponse": {
+   "fr": "Oui : un garage fermé (box) au parking du Mérignou, juste en face de l'entrée de l'immeuble.",
+   "en": "Yes: a closed garage (box) at the Mérignou car park, right opposite the building entrance.",
+   "de": "Ja: eine geschlossene Garage (Box) auf dem Parkplatz Mérignou, direkt gegenüber dem Eingang des Gebäudes.",
+   "it": "Sì: un garage chiuso (box) al parcheggio del Mérignou, proprio di fronte all'ingresso dell'edificio.",
+   "ru": "Да: закрытый гараж (бокс) на парковке Mérignou, прямо напротив входа в здание."
+  },
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ },
+ {
+  "id": "capacite",
+  "question": {
+   "fr": "Combien de personnes peuvent dormir sur place ?",
+   "en": "How many people can sleep there?",
+   "de": "Wie viele Personen können dort schlafen?",
+   "it": "Quante persone possono dormire?",
+   "ru": "Сколько человек могут там разместиться?"
+  },
+  "reponse": {
+   "fr": "L'appartement compte 2 chambres et accueille 5 personnes : 2 couchages dans la chambre double, 2 ou 3 dans la chambre familiale grâce à un lit gigogne.",
+   "en": "The apartment has 2 bedrooms and sleeps 5 people: 2 beds in the double bedroom, 2 or 3 in the family bedroom thanks to a trundle bed.",
+   "de": "Die Wohnung hat 2 Schlafzimmer und bietet Platz für 5 Personen: 2 Schlafplätze im Doppelzimmer, 2 oder 3 im Familienzimmer dank einem Ausziehbett.",
+   "it": "L'appartamento ha 2 camere da letto e ospita 5 persone: 2 posti letto nella camera doppia, 2 o 3 nella camera familiare grazie a un letto estraibile.",
+   "ru": "В квартире 2 спальни, она рассчитана на 5 человек: 2 места в двухместной спальне и 2 или 3 в семейной спальне благодаря выдвижной кровати."
+  },
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ },
+ {
+  "id": "inclus",
+  "question": {
+   "fr": "Qu'est-ce qui est compris dans le prix ?",
+   "en": "What is included in the price?",
+   "de": "Was ist im Preis enthalten?",
+   "it": "Che cosa è incluso nel prezzo?",
+   "ru": "Что входит в стоимость?"
+  },
+  "reponse": {
+   "fr": "Le prix public d'ImmoCrans, à partir de CHF 1'960 par semaine, comprend les charges, le linge de maison, la vaisselle, internet et le garage.",
+   "en": "The public ImmoCrans price, from CHF 1,960 per week, includes charges, linen, tableware, internet and the garage.",
+   "de": "Der öffentliche Preis von ImmoCrans, ab CHF 1'960 pro Woche, umfasst die Nebenkosten, die Bettwäsche, das Geschirr, Internet und die Garage.",
+   "it": "Il prezzo pubblico di ImmoCrans, da CHF 1'960 a settimana, comprende le spese, la biancheria, le stoviglie, internet e il garage.",
+   "ru": "В публичную цену ImmoCrans, от CHF 1'960 в неделю, входят коммунальные расходы, бельё, посуда, интернет и гараж."
+  },
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ },
+ {
+  "id": "distances",
+  "question": {
+   "fr": "Que trouve-t-on à proximité ?",
+   "en": "What is nearby?",
+   "de": "Was gibt es in der Nähe?",
+   "it": "Che cosa c'è nelle vicinanze?",
+   "ru": "Что находится рядом?"
+  },
+  "reponse": {
+   "fr": "La télécabine est à 4 min. La Coop est en face de l'immeuble. Le golf de Crans-sur-Sierre est à environ 7 min à pied (0,5 km).",
+   "en": "The gondola is 4 min away. The Coop is opposite the building. The Crans-sur-Sierre golf course is about a 7 min walk (0.5 km) away.",
+   "de": "Die Gondel ist 4 Min. entfernt. Die Coop liegt gegenüber dem Gebäude. Zum Golfplatz Crans-sur-Sierre sind es etwa 7 Min. zu Fuss (0,5 km).",
+   "it": "La cabinovia è a 4 min. La Coop è di fronte all'edificio. Il golf di Crans-sur-Sierre è a circa 7 min a piedi (0,5 km).",
+   "ru": "До гондолы 4 мин. Магазин Coop находится напротив здания. До гольф-клуба Crans-sur-Sierre около 7 мин пешком (0,5 км)."
+  },
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ },
+ {
+  "id": "duree-canal",
+  "question": {
+   "fr": "Quelle est la durée minimale et comment réserver ?",
+   "en": "What is the minimum stay and how do I book?",
+   "de": "Wie lang ist der Mindestaufenthalt und wie buche ich?",
+   "it": "Qual è la durata minima e come si prenota?",
+   "ru": "Каков минимальный срок и как забронировать?"
+  },
+  "reponse": {
+   "fr": "À partir de 7 nuits, la réservation passe par ImmoCrans. Pour un séjour plus court, envoyez une demande directe à l'hôte, ou passez par Airbnb ou Booking.",
+   "en": "From 7 nights, booking goes through ImmoCrans. For a shorter stay, send a direct request to the host, or go through Airbnb or Booking.",
+   "de": "Ab 7 Nächten läuft die Buchung über ImmoCrans. Bei einem kürzeren Aufenthalt senden Sie dem Gastgeber eine direkte Anfrage oder buchen Sie über Airbnb oder Booking.",
+   "it": "Da 7 notti in su la prenotazione passa da ImmoCrans. Per un soggiorno più breve, invii una richiesta diretta all'host oppure prenoti su Airbnb o Booking.",
+   "ru": "При проживании от 7 ночей бронирование оформляется через ImmoCrans. Для более короткого проживания отправьте хозяину прямой запрос или воспользуйтесь Airbnb или Booking."
+  },
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "statut": "H",
+  "note": "Seuil de 7 nuits = règle du prototype (tarifs.json), à confirmer par l'hôte."
+ },
+ {
+  "id": "taxe-sejour",
+  "question": {
+   "fr": "La taxe de séjour est-elle comprise ?",
+   "en": "Is the tourist tax included?",
+   "de": "Ist die Kurtaxe inbegriffen?",
+   "it": "La tassa di soggiorno è inclusa?",
+   "ru": "Включён ли туристический сбор?"
+  },
+  "reponse": {
+   "fr": "Non : la taxe de séjour est en sus du prix. Elle est d'environ CHF 3 par adulte et par nuit (montant à confirmer, selon le règlement de Crans-Montana).",
+   "en": "No: the tourist tax is charged on top of the price. It is about CHF 3 per adult per night (amount to be confirmed, according to the Crans-Montana regulation).",
+   "de": "Nein: Die Kurtaxe kommt zum Preis hinzu. Sie beträgt etwa CHF 3 pro Erwachsenem und Nacht (Betrag zu bestätigen, gemäss dem Reglement von Crans-Montana).",
+   "it": "No: la tassa di soggiorno si aggiunge al prezzo. È di circa CHF 3 per adulto e per notte (importo da confermare, secondo il regolamento di Crans-Montana).",
+   "ru": "Нет: туристический сбор оплачивается дополнительно к цене. Он составляет около CHF 3 за взрослого в сутки (сумма требует подтверждения, согласно регламенту Crans-Montana)."
+  },
+  "source": "https://crans.iomedia.ch/media/document/0/reglement-sur-la-taxe-de-sejour-crans-montana-1.pdf",
+  "date": "2026-11-05",
+  "statut": "H",
+  "prix_admis": [
+   3
+  ],
+  "note": "Montant [H], non relu sur le règlement ; la source est le règlement communal."
+ },
+ {
+  "id": "cuisine",
+  "question": {
+   "fr": "Comment est équipée la cuisine ?",
+   "en": "How is the kitchen equipped?",
+   "de": "Wie ist die Küche ausgestattet?",
+   "it": "Come è attrezzata la cucina?",
+   "ru": "Чем оборудована кухня?"
+  },
+  "reponse": {
+   "fr": "Four professionnel (traditionnel, vapeur et micro-ondes), lave-vaisselle entièrement intégré, lave-linge et sèche-linge encastrés, téléviseur OLED.",
+   "en": "Professional oven (traditional, steam and microwave), fully integrated dishwasher, built-in washing machine and dryer, OLED television.",
+   "de": "Professioneller Backofen mit Dampfgarer und Mikrowelle, vollständig integrierter Geschirrspüler, eingebaute Waschmaschine und Trockner, OLED-Fernseher.",
+   "it": "Forno professionale (tradizionale, a vapore e microonde), lavastoviglie completamente integrata, lavatrice e asciugatrice a incasso, televisore OLED.",
+   "ru": "Профессиональная духовка с пароваркой и микроволновой печью, полностью встроенная посудомоечная машина, встроенные стиральная и сушильная машины, телевизор OLED."
+  },
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ },
+ {
+  "id": "calme-exterieur",
+  "question": {
+   "fr": "Comment est l'extérieur et le calme ?",
+   "en": "What are the outdoor space and the noise level like?",
+   "de": "Wie sind die Aussenbereiche und die Ruhe?",
+   "it": "Com'è l'esterno e la tranquillità?",
+   "ru": "Что с внешними зонами и тишиной?"
+  },
+  "reponse": {
+   "fr": "Triple vitrage acoustique haute performance, 2 balcons (balcon nord et terrasse sud de 11,5 m²) et accès à un jardin de plus de 1 000 m².",
+   "en": "High-performance acoustic triple glazing, 2 balconies (north balcony and south terrace of 11.5 m²) and access to a garden of more than 1,000 m².",
+   "de": "Hochwertige Dreifachverglasung mit Schallschutz, 2 Balkone (Nordbalkon und Südterrasse von 11,5 m²) und Zugang zu einem Garten von mehr als 1'000 m².",
+   "it": "Triplo vetro acustico ad alte prestazioni, 2 balconi (balcone nord e terrazza sud di 11,5 m²) e accesso a un giardino di oltre 1'000 m².",
+   "ru": "Тройное акустическое остекление высокого качества, 2 балкона (северный балкон и южная терраса площадью 11,5 м²) и доступ к саду площадью более 1'000 м²."
+  },
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "statut": "C-HTML"
+ }
+]

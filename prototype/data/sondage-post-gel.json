@@ -1,0 +1,474 @@
+{
+ "etiquette": "Sondage POST-GEL : phrases écrites après le code pour le casser ; les ratés connus restent listés",
+ "phrases": [
+  {
+   "id": "pg-01",
+   "langue": "fr",
+   "texte": "L'appartement compte trois chambres.",
+   "attendu": "bloque",
+   "note": "3 chambres, la fiche dit 2"
+  },
+  {
+   "id": "pg-02",
+   "langue": "fr",
+   "texte": "Nous n'avons pas de piscine mais un sauna privé.",
+   "attendu": "bloque",
+   "note": "sauna non annoncé ; piscine niée = confirmé"
+  },
+  {
+   "id": "pg-03",
+   "langue": "fr",
+   "texte": "Pas de souci pour le parking : un box vous attend.",
+   "attendu": "ok",
+   "note": "« pas de souci » n'est pas une négation"
+  },
+  {
+   "id": "pg-04",
+   "langue": "fr",
+   "texte": "Il n'y a aucun problème avec le wifi, il est rapide.",
+   "attendu": "ok",
+   "note": "« aucun problème » n'est pas une négation"
+  },
+  {
+   "id": "pg-05",
+   "langue": "fr",
+   "texte": "Pas de climatisation, mais une belle cheminée.",
+   "attendu": "bloque",
+   "note": "cheminée non annoncée"
+  },
+  {
+   "id": "pg-06",
+   "langue": "fr",
+   "texte": "Chambres : 2. Salles de bain : 3.",
+   "attendu": "bloque",
+   "note": "forme « libellé : nombre » ; 3 salles de bain, la fiche dit 2"
+  },
+  {
+   "id": "pg-07",
+   "langue": "en",
+   "texte": "Cozy 3-bedroom flat, sleeps up to 6.",
+   "attendu": "bloque",
+   "note": "3 chambres, 6 personnes"
+  },
+  {
+   "id": "pg-08",
+   "langue": "en",
+   "texte": "Pets are welcome, dogs too.",
+   "attendu": "bloque",
+   "note": "animaux non annoncés"
+  },
+  {
+   "id": "pg-09",
+   "langue": "de",
+   "texte": "Die Wohnung hat drei Schlafzimmer und einen Kamin.",
+   "attendu": "bloque",
+   "note": "3 chambres ; cheminée"
+  },
+  {
+   "id": "pg-10",
+   "langue": "it",
+   "texte": "Appartamento di 120 m² con idromassaggio.",
+   "attendu": "bloque",
+   "note": "surface et jacuzzi"
+  },
+  {
+   "id": "pg-11",
+   "langue": "ru",
+   "texte": "В квартире есть сауна и 3 спальни.",
+   "attendu": "bloque",
+   "note": "sauna ; 3 chambres"
+  },
+  {
+   "id": "pg-12",
+   "langue": "fr",
+   "texte": "Ski-in ski-out, directement sur les pistes.",
+   "attendu": "bloque",
+   "note": "ski-in non annoncé"
+  },
+  {
+   "id": "pg-13",
+   "langue": "fr",
+   "texte": "Prix : CHF 1'960.- la semaine, ménage final CHF 150.-",
+   "attendu": "bloque",
+   "note": "CHF 150 hors fiche"
+  },
+  {
+   "id": "pg-14",
+   "langue": "fr",
+   "texte": "Jusqu'à dix personnes peuvent dormir ici.",
+   "attendu": "bloque",
+   "note": "10 personnes, la fiche dit 5 (nombre en lettres)"
+  },
+  {
+   "id": "pg-15",
+   "langue": "fr",
+   "texte": "Nous acceptons les chiens.",
+   "attendu": "bloque",
+   "note": "animaux non annoncés (pluriel)"
+  },
+  {
+   "id": "pg-16",
+   "langue": "fr",
+   "texte": "Le garage n'est malheureusement plus disponible cet hiver.",
+   "attendu": "bloque",
+   "note": "négation après le mot"
+  },
+  {
+   "id": "pg-17",
+   "langue": "en",
+   "texte": "No pool, no problem: the garden is 1,000 m².",
+   "attendu": "ok",
+   "note": "piscine niée ; jardin 1 000 m²"
+  },
+  {
+   "id": "pg-18",
+   "langue": "de",
+   "texte": "2 Schlafzimmer, 2 Bäder, 74 m², Garage, kein Pool.",
+   "attendu": "ok",
+   "note": "tout confirmé"
+  },
+  {
+   "id": "pg-19",
+   "langue": "fr",
+   "texte": "La télécabine est à 15 minutes à pied.",
+   "attendu": "bloque",
+   "note": "> 2× les 4 min du site"
+  },
+  {
+   "id": "pg-20",
+   "langue": "fr",
+   "texte": "L'appartement se trouve à Zermatt.",
+   "attendu": "bloque",
+   "note": "lieu autre"
+  },
+  {
+   "id": "pg-21",
+   "langue": "fr",
+   "texte": "Sans oublier la piscine de l'hôtel voisin, ouverte au public.",
+   "attendu": "bloque",
+   "note": "piscine non annoncée : « sans oublier » ne nie rien ; l'hôte précise ou retire"
+  },
+  {
+   "id": "pg-22",
+   "langue": "fr",
+   "texte": "Le lave-vaisselle ne fonctionne pas.",
+   "attendu": "bloque",
+   "note": "équipement annoncé mais dit en panne : contredit"
+  },
+  {
+   "id": "pg-23",
+   "langue": "fr",
+   "texte": "Appartement 4 pièces, 3 salles de bain.",
+   "attendu": "bloque",
+   "note": "3 salles de bain"
+  },
+  {
+   "id": "pg-24",
+   "langue": "fr",
+   "texte": "Il y a deux chambres et trois salles de bains.",
+   "attendu": "bloque",
+   "note": "3 salles de bain"
+  },
+  {
+   "id": "pg-25",
+   "langue": "fr",
+   "texte": "Sans frais, le garage est compris.",
+   "attendu": "ok",
+   "note": "« sans frais » n'est pas une négation"
+  },
+  {
+   "id": "pg-26",
+   "langue": "de",
+   "texte": "Ohne Aufpreis: Garage und WLAN inklusive.",
+   "attendu": "ok",
+   "note": "« ohne Aufpreis » n'est pas une négation"
+  },
+  {
+   "id": "pg-27",
+   "langue": "it",
+   "texte": "Senza costi extra, il garage è incluso.",
+   "attendu": "ok",
+   "note": "« senza costi extra » n'est pas une négation"
+  },
+  {
+   "id": "pg-28",
+   "langue": "fr",
+   "texte": "Nous n'avons pas oublié le linge de lit.",
+   "attendu": "ok",
+   "note": "« pas oublié » n'est pas une négation de l'équipement"
+  },
+  {
+   "id": "pg-29",
+   "langue": "fr",
+   "texte": "Deux piscines à proximité.",
+   "attendu": "bloque",
+   "note": "pluriel de piscine"
+  },
+  {
+   "id": "pg-30",
+   "langue": "de",
+   "texte": "Hunde erlaubt.",
+   "attendu": "bloque",
+   "note": "animaux non annoncés (DE)"
+  },
+  {
+   "id": "pg-31",
+   "langue": "en",
+   "texte": "Not only a garage, also a dishwasher.",
+   "attendu": "ok",
+   "note": "« not only » n'est pas une négation"
+  },
+  {
+   "id": "pg-32",
+   "langue": "ru",
+   "texte": "Без доплаты гараж включён.",
+   "attendu": "ok",
+   "note": "« без доплаты » n'est pas une négation"
+  },
+  {
+   "id": "pg-33",
+   "langue": "fr",
+   "texte": "Gratuit, sans supplément : internet et lave-linge.",
+   "attendu": "ok",
+   "note": "« sans supplément » n'est pas une négation"
+  },
+  {
+   "id": "pg-34",
+   "langue": "fr",
+   "texte": "CHF 2'100.- la semaine en haute saison.",
+   "attendu": "bloque",
+   "note": "prix hors fiche"
+  },
+  {
+   "id": "pg-35",
+   "langue": "fr",
+   "texte": "Chambres 2",
+   "attendu": "ok",
+   "note": "ImmoCrans, sans deux-points : confirmé"
+  },
+  {
+   "id": "pg-36",
+   "langue": "fr",
+   "texte": "Chambres : 3",
+   "attendu": "bloque",
+   "note": "libellé : nombre, 3 ≠ 2"
+  },
+  {
+   "id": "pg-37",
+   "langue": "fr",
+   "texte": "Salles de bain : 2",
+   "attendu": "ok",
+   "note": "libellé : nombre confirmé"
+  },
+  {
+   "id": "pg-38",
+   "langue": "fr",
+   "texte": "Personnes : 8",
+   "attendu": "bloque",
+   "note": "capacité 5"
+  },
+  {
+   "id": "pg-39",
+   "langue": "fr",
+   "texte": "Capacité totale : 4 à 5 personnes.",
+   "attendu": "ok",
+   "note": "plage : précision seulement"
+  },
+  {
+   "id": "pg-40",
+   "langue": "fr",
+   "texte": "Pièces 3.5",
+   "attendu": "ok",
+   "note": "ImmoCrans : pièces confirmé"
+  },
+  {
+   "id": "pg-41",
+   "langue": "en",
+   "texte": "Dogs are not allowed.",
+   "attendu": "ok",
+   "note": "chiens niés = confirmé"
+  },
+  {
+   "id": "pg-42",
+   "langue": "de",
+   "texte": "Hunde sind nicht erlaubt.",
+   "attendu": "ok",
+   "note": "négation après le mot, animaux niés"
+  },
+  {
+   "id": "pg-43",
+   "langue": "it",
+   "texte": "Accettiamo i cani.",
+   "attendu": "bloque",
+   "note": "pluriel italien"
+  },
+  {
+   "id": "pg-44",
+   "langue": "fr",
+   "texte": "Dix personnes peuvent dormir ici.",
+   "attendu": "bloque",
+   "note": "nombre en lettres"
+  },
+  {
+   "id": "pg-45",
+   "langue": "fr",
+   "texte": "Pas seulement un garage, aussi un lave-vaisselle.",
+   "attendu": "ok",
+   "note": "« pas seulement » n'est pas une négation"
+  },
+  {
+   "id": "pg-46",
+   "langue": "de",
+   "texte": "Nicht nur Garage, auch Geschirrspüler.",
+   "attendu": "ok",
+   "note": "« nicht nur » n'est pas une négation"
+  },
+  {
+   "id": "pg-47",
+   "langue": "it",
+   "texte": "Non solo garage, anche lavastoviglie.",
+   "attendu": "ok",
+   "note": "« non solo » n'est pas une négation"
+  },
+  {
+   "id": "pg-48",
+   "langue": "en",
+   "texte": "The garage is no longer available.",
+   "attendu": "bloque",
+   "note": "« no longer available » après le mot"
+  },
+  {
+   "id": "pg-49",
+   "langue": "de",
+   "texte": "Die Garage ist nicht mehr verfügbar.",
+   "attendu": "bloque",
+   "note": "« nicht mehr » après le mot"
+  },
+  {
+   "id": "pg-50",
+   "langue": "it",
+   "texte": "Il garage non è disponibile.",
+   "attendu": "bloque",
+   "note": "« non è » après le mot"
+  },
+  {
+   "id": "pg-51",
+   "langue": "ru",
+   "texte": "Гараж недоступен.",
+   "attendu": "bloque",
+   "note": "« недоступен » après le mot"
+  },
+  {
+   "id": "pg-52",
+   "langue": "fr",
+   "texte": "Le garage n'est pas payant.",
+   "attendu": "ok",
+   "note": "« n'est pas payant » ne nie pas le garage"
+  },
+  {
+   "id": "pg-53",
+   "langue": "fr",
+   "texte": "Le garage est inclus, n'est pas facturé en plus.",
+   "attendu": "ok",
+   "note": "la négation après la virgule vise le prix"
+  },
+  {
+   "id": "pg-54",
+   "langue": "fr",
+   "texte": "Entièrement rénové en 2026.",
+   "attendu": "ok",
+   "note": "rénovation 2026 confirmée"
+  },
+  {
+   "id": "pg-55",
+   "langue": "fr",
+   "texte": "Rénové en 2024.",
+   "attendu": "bloque",
+   "note": "rénovation : la fiche dit 2026"
+  },
+  {
+   "id": "pg-56",
+   "langue": "de",
+   "texte": "Komplett renoviert 2026.",
+   "attendu": "ok",
+   "note": "rénovation DE confirmée"
+  },
+  {
+   "id": "pg-57",
+   "langue": "fr",
+   "texte": "Garage fermé, un box au parking du Mérignou.",
+   "attendu": "ok",
+   "note": "texte du site"
+  },
+  {
+   "id": "pg-58",
+   "langue": "fr",
+   "texte": "La télécabine est à 4 min.",
+   "attendu": "ok",
+   "note": "texte du site"
+  },
+  {
+   "id": "pg-59",
+   "langue": "fr",
+   "texte": "Ski à 3 min.",
+   "attendu": "ok",
+   "note": "précision seulement"
+  },
+  {
+   "id": "pg-60",
+   "langue": "fr",
+   "texte": "La Coop est à 20 minutes.",
+   "attendu": "bloque",
+   "note": "attendu 0 (en face), annoncé ≥ 10"
+  },
+  {
+   "id": "pg-61",
+   "langue": "fr",
+   "texte": "Nous sommes à Genève.",
+   "attendu": "bloque",
+   "note": "lieu autre"
+  },
+  {
+   "id": "pg-62",
+   "langue": "de",
+   "texte": "Gelegen in Zürich.",
+   "attendu": "bloque",
+   "note": "lieu autre (DE)"
+  },
+  {
+   "id": "pg-63",
+   "langue": "fr",
+   "texte": "Crans-Montana, commune de Lens, près de Sierre.",
+   "attendu": "ok",
+   "note": "lieux connus"
+  },
+  {
+   "id": "pg-64",
+   "langue": "fr",
+   "texte": "Rue du Pas-de-l'Ours 3B, 3963 Crans-Montana",
+   "attendu": "ok",
+   "note": "adresse de la fiche"
+  },
+  {
+   "id": "pg-65",
+   "langue": "fr",
+   "texte": "2 balcons, un jardin de plus de 1 000 m².",
+   "attendu": "ok",
+   "note": "texte du site"
+  },
+  {
+   "id": "pg-66",
+   "langue": "en",
+   "texte": "Two dogs welcome.",
+   "attendu": "bloque",
+   "note": "pluriel / animaux"
+  },
+  {
+   "id": "pg-67",
+   "langue": "fr",
+   "texte": "Il y a une piscine chauffée.",
+   "attendu": "bloque",
+   "note": "piscine non annoncée"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+Cent cinquante-sept tests, sans rien installer : quartiles recalculés, dates, doublons, corpus figé avant le code, soixante-sept phrases écrites pour casser le vérificateur. Et trente-huit contrôles de bout en bout.

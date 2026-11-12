@@ -1,0 +1,26 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Terminal</title>
+<style>
+html,body{margin:0;width:1280px;height:720px;background:#1B2320;overflow:hidden}
+#t{box-sizing:border-box;width:1280px;height:720px;padding:32px 48px;color:#F4F6F2;font:400 20px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-all;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end}
+.l{flex:none}.c{color:#8A5A2B}.k{color:#F4F6F2}
+</style></head><body><div id="t"></div>
+<script>
+(async()=>{
+  const txt=(await (await fetch('terminal.txt')).text()).replace(/\n+$/,'');
+  const lignes=['$ npm test',...txt.split('\n')];
+  const t=document.getElementById('t');
+  const MAX=Math.floor((720-64)/29);
+  const cles=/^sondage post-gel : \d+ réussies|^pièges bloqués : /;
+  const base=6200/lignes.length;
+  let n=0;
+  const suite=()=>{
+    if(n>=lignes.length)return;
+    const d=document.createElement('div');d.className='l';d.textContent=lignes[n];t.appendChild(d);
+    while(t.children.length>MAX)t.removeChild(t.firstChild);
+    const attente=base+(cles.test(lignes[n])?1700:0)+(/^\$ npm run e2e/.test(lignes[n])?1500:0);
+    n++;setTimeout(suite,attente);
+  };
+  suite();
+
+})();
+</script></body></html>

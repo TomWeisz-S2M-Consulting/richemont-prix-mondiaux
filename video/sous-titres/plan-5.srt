@@ -1,0 +1,17 @@
+1
+00:00:00,300 --> 00:00:03,801
+En janvier, aucune annonce n'a été relevée
+pour ces dates.
+
+2
+00:00:03,801 --> 00:00:06,156
+Alors il n'y a pas de prix recommandé :
+
+3
+00:00:06,156 --> 00:00:07,122
+« sur demande ».
+
+4
+00:00:07,122 --> 00:00:10,140
+On n'invente pas un chiffre pour remplir
+une case.

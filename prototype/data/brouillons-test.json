@@ -1,0 +1,312 @@
+[
+ {
+  "id": "ok-01",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, merci de votre demande pour la période du 19 au 26 décembre 2026. L'appartement, entièrement rénové en 2026, compte deux chambres et 2 salles d'eau, pour jusqu'à 5 personnes. La télécabine est à 4 min. Arrivée dès 16 h. L'hôte de Richemont 3B.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "nombres non factuels : dates, 2026, 16 h, 4 min"
+ },
+ {
+  "id": "ok-02",
+  "langue": "en",
+  "origine": "redige",
+  "texte": "Thank you for your enquiry for 19 to 26 December. The apartment has two bedrooms and two bathrooms and sleeps up to 5 guests. The gondola is 4 min away. Our address is Rue du Pas-de-l'Ours 3B, 3963 Crans-Montana. Check-in from 4 pm. The host of Richemont 3B.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "code postal 3963, 4 min, dates"
+ },
+ {
+  "id": "ok-03",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, le prix public est de CHF 1'960.- par semaine, charges, linge, internet, vaisselle et garage compris, soit 280.-/nuit. Nous restons joignables 24 h/24 pour votre arrivée du 2 au 9 janvier 2027.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "formats suisses 1'960.- et 280.-/nuit ; 24 h/24"
+ },
+ {
+  "id": "ok-04",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, l'appartement est proposé dès CHF 1 960 par semaine (prix public ImmoCrans). Il est situé au 1er étage, avec un box fermé au parking du Mérignou, en face de l'immeuble. Arrivée dès 16 h.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "1 960 avec espace insécable (U+00A0) ; 1er étage ; 16 h"
+ },
+ {
+  "id": "ok-05",
+  "langue": "en",
+  "origine": "redige",
+  "texte": "The flat has two bedrooms and a garage box in the car park opposite the building. Prices start at CHF 1,960 per week, linen, internet and dishes included. It is on the 1st floor and was renovated in 2026.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "1,960 ; 1st floor ; 2026 ; two bedrooms"
+ },
+ {
+  "id": "ok-06",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, l'appartement dispose d'une terrasse de 11,5 m² au sud et d'un jardin de plus de 1 000 m². Il est au 1er étage, au 3963 Crans-Montana, avec deux balcons et la Coop en face.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "11,5 m², 1 000 m² (jardin), 1er étage, code postal"
+ },
+ {
+  "id": "ok-07",
+  "langue": "en",
+  "origine": "redige",
+  "texte": "The apartment measures 74 m2 and sleeps up to 5 guests. There is no pool and no pets are allowed in the flat. Arrival from 4 pm, host reachable 24 h/24.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "74 m2 ; no pets ; sans piscine en EN ; la fiche ne dit pas « animaux interdits » mais « animaux : non annoncé » ; négation = confirmé"
+ },
+ {
+  "id": "ok-08",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, l'appartement fait 74m² et accueille jusqu'à 5 personnes, avec 5 lits répartis en deux chambres. Il est sans piscine ni sauna. Le séjour du 6 au 13 mars 2027 est possible. Arrivée dès 16 h.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "74m² collé ; 5 lits ; sans piscine ; dates"
+ },
+ {
+  "id": "ok-09",
+  "langue": "en",
+  "origine": "redige",
+  "texte": "We have 2 bedrooms and 5 beds, for up to 5 people. The apartment was renovated in 2026 and the gondola is 4 min away. Check-in is from 4 pm and your stay runs from 12 to 19 February 2027.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "2 bedrooms, 5 beds, up to 5 people"
+ },
+ {
+  "id": "ok-10",
+  "langue": "fr",
+  "origine": "redige",
+  "texte": "Bonjour, deux chambres, 2 salles d'eau, un triple vitrage acoustique et un four vapeur. Tarif de référence : 280.-/nuit ou CHF 1'960.- la semaine. Adresse : Rue du Pas-de-l'Ours 3B, 3963 Crans-Montana. Réponse sous 24 h/24, bonne fin de journée.",
+  "attendu": {
+   "verdict": "ok",
+   "faits": []
+  },
+  "note": "deux chambres en lettres, 280.-/nuit, adresse"
+ },
+ {
+  "id": "piege-01",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Richemont 3 chambres • Ski à 3 min • Standing • Garage - Appartements à louer à Lens, Valais, Suisse - Airbnb",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "chambres",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "<title> Airbnb réel copié tel quel ; contient aussi « Ski à 3 min » (distance : précision, ne bloque pas)"
+ },
+ {
+  "id": "piege-02",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, deux chambres pour 5 personnes, avec piscine et un box fermé au parking du Mérignou. Arrivée dès 16 h.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "piscine",
+     "statut": "absent"
+    }
+   ]
+  },
+  "note": "un seul écart : piscine"
+ },
+ {
+  "id": "piege-03",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, l'appartement compte 3 chambres et 2 salles d'eau, pour jusqu'à 5 personnes. La télécabine est à 4 min.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "chambres",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "3 chambres (fiche : 2)"
+ },
+ {
+  "id": "piege-04",
+  "langue": "en",
+  "origine": "piege",
+  "texte": "The apartment has three bedrooms and two bathrooms, and sleeps up to 5 guests. The gondola is 4 min away.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "chambres",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "three bedrooms (nombre en lettres)"
+ },
+ {
+  "id": "piege-05",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, l'appartement fait 80 m2 et se trouve au 1er étage, avec deux chambres et un box fermé en face de l'immeuble.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "surface",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "80 m2 (fiche : 74 ou 68 ou 73,8)"
+ },
+ {
+  "id": "piege-06",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, le tarif est de CHF 1'800.- la semaine, charges, linge, internet, vaisselle et garage compris. Deux chambres, jusqu'à 5 personnes.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "prix",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "prix hors fiche (1'960 ou 280 attendus)"
+ },
+ {
+  "id": "piege-07",
+  "langue": "en",
+  "origine": "piege",
+  "texte": "The apartment has two bedrooms and can host 6 guests. It is on the 1st floor, with a garage box opposite the building.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "capacite",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "6 guests (capacité : 5)"
+ },
+ {
+  "id": "piege-08",
+  "langue": "en",
+  "origine": "piege",
+  "texte": "The apartment has two bedrooms, 3 bathrooms and a garage box in the car park opposite the building. It sleeps up to 5 guests.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "salles_eau",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "3 bathrooms (fiche : 2)"
+ },
+ {
+  "id": "piege-09",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, l'appartement compte deux chambres, 2 salles d'eau et un sauna privé, pour jusqu'à 5 personnes. Arrivée dès 16 h.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "sauna",
+     "statut": "absent"
+    }
+   ]
+  },
+  "note": "sauna privé : non annoncé"
+ },
+ {
+  "id": "piege-10",
+  "langue": "fr",
+  "origine": "piege",
+  "texte": "Bonjour, l'appartement compte deux chambres et accueille jusqu'à 5 personnes, mais il n'y a pas de garage. La télécabine est à 4 min.",
+  "attendu": {
+   "verdict": "bloque",
+   "faits": [
+    {
+     "type": "garage",
+     "statut": "contredit"
+    }
+   ]
+  },
+  "note": "négation d'un équipement présent (box fermé au parking du Mérignou). Hypothèse : le cas « climatisation » de la spec n'est pas repris pour tenir 10 pièges et 25 entrées"
+ },
+ {
+  "id": "llm-01",
+  "langue": "fr",
+  "origine": "llm-brut",
+  "texte": "Bonjour Camille,\n\nMerci pour votre demande. Vous souhaitez séjourner à Richemont 3B du 10 au 17 janvier 2027, soit 7 nuits.\n\nL'appartement accueille jusqu'à 5 personnes ; vous serez 2 voyageurs, ce qui vous laisse beaucoup d'espace dans ses 74 m².\n\nL'hôte vous confirmera le tarif pour ces dates. Le prix public indiqué est de CHF 1'960 par semaine (source ImmoCrans).\n\nSont compris : le linge, la vaisselle, internet et le garage au parking du Mérignou. Vous disposerez aussi d'un four vapeur et d'un lave-linge avec sèche-linge.\n\nL'hôte vous répondra très bientôt pour confirmer. Comme votre séjour dure 7 nuits, la réservation peut aussi passer par ImmoCrans.\n\nL'hôte de Richemont 3B",
+  "attendu": null,
+  "note": "brut, non relu"
+ },
+ {
+  "id": "llm-02",
+  "langue": "fr",
+  "origine": "llm-brut",
+  "texte": "Bonjour Julien,\n\nMerci de votre message. Vous envisagez un séjour du 19 au 26 décembre 2026, soit 7 nuits.\n\nVous serez 5 voyageurs, ce qui correspond exactement à la capacité de l'appartement (5 personnes, deux chambres et un lit gigogne).\n\nPour ces dates, l'estimation d'après les tarifs fournis est de CHF 2'940 pour 7 nuits (420 CHF par nuit, période des Fêtes).\n\nLe linge, la vaisselle, internet et le garage sont compris.\n\nL'hôte confirmera votre demande sous peu ; pour 7 nuits, la réservation peut également se faire via ImmoCrans.\n\nL'hôte de Richemont 3B",
+  "attendu": null,
+  "note": "brut, non relu ; avec tarifs d'exemple (periode Fêtes à 420)"
+ },
+ {
+  "id": "llm-03",
+  "langue": "fr",
+  "origine": "llm-brut",
+  "texte": "Bonjour Nadia,\n\nMerci pour votre demande de séjour du 6 au 9 mars 2027, soit 3 nuits.\n\nVous serez 3 voyageurs. L'appartement offre deux chambres et deux salles d'eau, avec Geberit AquaClean, pour jusqu'à 5 personnes.\n\nL'hôte vous indiquera le tarif pour ces dates dans sa réponse.\n\nSont inclus : le linge, la vaisselle, internet, un téléviseur OLED, et un box de garage fermé. Une terrasse de 11,5 m² est orientée plein sud et la station est à deux pas, avec la télécabine à 4 min.\n\nL'hôte reviendra vers vous rapidement pour confirmer ces dates.\n\nL'hôte de Richemont 3B",
+  "attendu": null,
+  "note": "brut, non relu"
+ },
+ {
+  "id": "llm-04",
+  "langue": "en",
+  "origine": "llm-brut",
+  "texte": "Hello Oliver,\n\nThank you for your enquiry. You would like to stay at Richemont 3B from 13 to 20 February 2027, which is 7 nights.\n\nThe apartment sleeps up to 5 guests, so 4 guests will be very comfortable in its two bedrooms with 2 bathrooms.\n\nThe host will confirm the price for these dates; no rate is quoted here. February is a busy period with the ski championships, so we advise confirming soon.\n\nIncluded: linen, dishes, internet and a private garage box. The gondola is 4 min away and the Coop supermarket is right opposite.\n\nThe host will reply shortly. As your stay is 7 nights, you can also book through ImmoCrans.\n\nThe host of Richemont 3B",
+  "attendu": null,
+  "note": "brut, non relu"
+ },
+ {
+  "id": "llm-05",
+  "langue": "en",
+  "origine": "llm-brut",
+  "texte": "Hi Sofia,\n\nThanks for getting in touch. You are asking about 25 to 28 March 2027, which makes 3 nights.\n\nThere are 2 of you, and the flat has 2 bedrooms, 2 bathrooms and room for 5 guests, with 74 m2 of living space and a south-facing terrace.\n\nThe host will confirm the rate for your dates. Wi-Fi, linen, dishes and the garage are included, and there is a dishwasher and a steam oven in the kitchen.\n\nThe host will get back to you soon to confirm.\n\nThe host of Richemont 3B",
+  "attendu": null,
+  "note": "brut, non relu"
+ }
+]

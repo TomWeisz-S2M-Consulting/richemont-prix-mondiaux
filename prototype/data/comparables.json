@@ -1,0 +1,3467 @@
+{
+  "etiquette": "Relevé public manuel/automatisé, figé le 2026-11-05 ; aucune réservation tentée",
+  "releve_le": "2026-11-05",
+  "periodes": [
+    {
+      "id": "P1",
+      "nom": "Basse saison automne",
+      "arrivee": "2026-11-14",
+      "depart": "2026-11-21",
+      "nuits": 7
+    },
+    {
+      "id": "P2",
+      "nom": "Début de saison de ski",
+      "arrivee": "2026-12-12",
+      "depart": "2026-12-19",
+      "nuits": 7
+    },
+    {
+      "id": "P3",
+      "nom": "Fêtes",
+      "arrivee": "2026-12-26",
+      "depart": "2027-01-02",
+      "nuits": 7
+    },
+    {
+      "id": "P4",
+      "nom": "Mondiaux de ski FIS 2027",
+      "arrivee": "2027-02-06",
+      "depart": "2027-02-13",
+      "nuits": 7,
+      "source_evenement": "https://www.cransmontana2027.ch/"
+    },
+    {
+      "id": "P5",
+      "nom": "Vacances de février hors Mondiaux",
+      "arrivee": "2027-02-20",
+      "depart": "2027-02-27",
+      "nuits": 7
+    },
+    {
+      "id": "P6",
+      "nom": "Fin de saison",
+      "arrivee": "2027-03-20",
+      "depart": "2027-03-27",
+      "nuits": 7
+    },
+    {
+      "id": "P7",
+      "nom": "Été",
+      "arrivee": "2027-07-17",
+      "depart": "2027-07-24",
+      "nuits": 7
+    },
+    {
+      "id": "P8",
+      "nom": "Omega European Masters 2027 (2-5 sept. 2027, source unique valais.ch)",
+      "arrivee": "2027-09-02",
+      "depart": "2027-09-06",
+      "nuits": 4,
+      "source_evenement": "https://www.crans-montana.ch/en/oem/"
+    },
+    {
+      "id": "C1",
+      "nom": "Court séjour Mondiaux (2 nuits)",
+      "arrivee": "2027-02-12",
+      "depart": "2027-02-14",
+      "nuits": 2,
+      "source_evenement": "https://www.cransmontana2027.ch/"
+    },
+    {
+      "id": "C2",
+      "nom": "Court séjour mars (2 nuits)",
+      "arrivee": "2027-03-05",
+      "depart": "2027-03-07",
+      "nuits": 2
+    }
+  ],
+  "annonces": [
+    {
+      "id": "airbnb-169880",
+      "source": "airbnb",
+      "titre": "Pied-à-terre à Crans-Montana, piscine et vue - Swi",
+      "url": "https://www.airbnb.ch/rooms/49169880",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.85,
+      "avis": 73,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 924,
+          "par_nuit_chf": 132,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        },
+        {
+          "periode": "P2",
+          "total_chf": 1164,
+          "par_nuit_chf": 166,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1359,
+          "par_nuit_chf": 194,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-106218",
+      "source": "airbnb",
+      "titre": "Terre Alpine | Vue Panoramique, Cheminée & Parking",
+      "url": "https://www.airbnb.ch/rooms/1552939660588106218",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 16,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1648,
+          "par_nuit_chf": 235,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        },
+        {
+          "periode": "P2",
+          "total_chf": 2040,
+          "par_nuit_chf": 291,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 2868,
+          "par_nuit_chf": 410,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-931393",
+      "source": "airbnb",
+      "titre": "Appartement Impéria 10",
+      "url": "https://www.airbnb.ch/rooms/1634729109661931393",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.83,
+      "avis": 6,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 910,
+          "par_nuit_chf": 130,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1530,
+          "par_nuit_chf": 219,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 660,
+          "par_nuit_chf": 330,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-172671",
+      "source": "airbnb",
+      "titre": "Maison historique de charme 10min de Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1580300533479172671",
+      "type": "Hébergement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.84,
+      "avis": 25,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 998,
+          "par_nuit_chf": 143,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-237514",
+      "source": "airbnb",
+      "titre": "Appartement cosy avec place de parking gratuite",
+      "url": "https://www.airbnb.ch/rooms/1755666155286237514",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.4,
+      "avis": 5,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 858,
+          "par_nuit_chf": 123,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        },
+        {
+          "periode": "P2",
+          "total_chf": 1040,
+          "par_nuit_chf": 149,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 485,
+          "par_nuit_chf": 242,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-476229",
+      "source": "airbnb",
+      "titre": "À côté des golfs dans le centre de Crans",
+      "url": "https://www.airbnb.ch/rooms/39476229",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.95,
+      "avis": 128,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1351,
+          "par_nuit_chf": 193,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-957964",
+      "source": "airbnb",
+      "titre": "Verloplan Lodge",
+      "url": "https://www.airbnb.ch/rooms/1751383802138957964",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 882,
+          "par_nuit_chf": 126,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        },
+        {
+          "periode": "P2",
+          "total_chf": 882,
+          "par_nuit_chf": 126,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-519627",
+      "source": "airbnb",
+      "titre": "Appartement en duplex avec vue imprenable sur la montagne",
+      "url": "https://www.airbnb.ch/rooms/641658211634519627",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.91,
+      "avis": 80,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 547,
+          "par_nuit_chf": 78,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 442,
+          "par_nuit_chf": 110,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-200120",
+      "source": "airbnb",
+      "titre": "Escapade centrale à Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1278914090582200120",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.9,
+      "avis": 21,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1221,
+          "par_nuit_chf": 174,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-121945",
+      "source": "airbnb",
+      "titre": "Appartement central et confortable",
+      "url": "https://www.airbnb.ch/rooms/925208160723121945",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.88,
+      "avis": 48,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 851,
+          "par_nuit_chf": 122,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-017526",
+      "source": "airbnb",
+      "titre": "Charmant chalet au centre-ville",
+      "url": "https://www.airbnb.ch/rooms/1293204125002017526",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.88,
+      "avis": 16,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1300,
+          "par_nuit_chf": 186,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1938,
+          "par_nuit_chf": 277,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-149370",
+      "source": "airbnb",
+      "titre": "Appartement spacieux • à quelques pas de la télécabine",
+      "url": "https://www.airbnb.ch/rooms/1698671584307149370",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.82,
+      "avis": 11,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 801,
+          "par_nuit_chf": 114,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-026854",
+      "source": "airbnb",
+      "titre": "Chalet premium avec vue montagne & grande terrasse",
+      "url": "https://www.airbnb.ch/rooms/1715159657143026854",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 5,
+      "garage": null,
+      "note": 5.0,
+      "avis": 5,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1393,
+          "par_nuit_chf": 199,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-681435",
+      "source": "airbnb",
+      "titre": "CapoStay Mountain Retreat, SKI",
+      "url": "https://www.airbnb.ch/rooms/1412113461962681435",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.83,
+      "avis": 41,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 898,
+          "par_nuit_chf": 128,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-605700",
+      "source": "airbnb",
+      "titre": "Chalet alpin confortable Crans-Montana – Vue sur la montagne",
+      "url": "https://www.airbnb.ch/rooms/22605700",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.77,
+      "avis": 137,
+      "prix": [
+        {
+          "periode": "P1",
+          "total_chf": 1029,
+          "par_nuit_chf": 147,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P1-pleine.png",
+          "verifie_le": "2026-11-05T20:44:17.517Z",
+          "sha256": "233103d83c3aac2e2713f9ea3847a9e77184643df1461fbce948a1ca3612e622",
+          "sha256_pleine": "c4ea22c1911e977d0d81f14fe937bb2e6681ea2696af2ce8aa4fecccdbc3a388"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1391,
+          "par_nuit_chf": 199,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1588,
+          "par_nuit_chf": 227,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 1105,
+          "par_nuit_chf": 276,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-428698",
+      "source": "airbnb",
+      "titre": "Lily ensoleillé face aux Alpes suisses - Crans Montana",
+      "url": "https://www.airbnb.ch/rooms/1298358508791428698",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 36,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1009,
+          "par_nuit_chf": 144,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 1389,
+          "par_nuit_chf": 198,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1014,
+          "par_nuit_chf": 145,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1378,
+          "par_nuit_chf": 197,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 431,
+          "par_nuit_chf": 216,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-793011",
+      "source": "airbnb",
+      "titre": "La Roseraie B 24 par Interhome",
+      "url": "https://www.airbnb.ch/rooms/1554905468622793011",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.55,
+      "avis": 11,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 593,
+          "par_nuit_chf": 85,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c"
+        },
+        {
+          "periode": "P3",
+          "total_chf": 1824,
+          "par_nuit_chf": 261,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 1094,
+          "par_nuit_chf": 156,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 733,
+          "par_nuit_chf": 105,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-205019",
+      "source": "airbnb",
+      "titre": "Appartement Chaleureux et Raffiné à Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1702947488447205019",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 3,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1274,
+          "par_nuit_chf": 182,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1267,
+          "par_nuit_chf": 181,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 555,
+          "par_nuit_chf": 278,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-561908",
+      "source": "airbnb",
+      "titre": "Nouvel appartement moderne à seulement 100 m de la télécabine",
+      "url": "https://www.airbnb.ch/rooms/1382849008710561908",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.96,
+      "avis": 27,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1393,
+          "par_nuit_chf": 199,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1779,
+          "par_nuit_chf": 254,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1586,
+          "par_nuit_chf": 227,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 1134,
+          "par_nuit_chf": 284,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-127487",
+      "source": "airbnb",
+      "titre": "Au centre de Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1480835773011127487",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 5.0,
+      "avis": 25,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 730,
+          "par_nuit_chf": 104,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-422484",
+      "source": "airbnb",
+      "titre": "Appartement dans maison type chalet, Mollens",
+      "url": "https://www.airbnb.ch/rooms/1250714258499422484",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.84,
+      "avis": 51,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 859,
+          "par_nuit_chf": 123,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 1279,
+          "par_nuit_chf": 183,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 415,
+          "par_nuit_chf": 208,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-393641",
+      "source": "airbnb",
+      "titre": "Magnifique 3 chambres Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/7393641",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 4,
+      "garage": null,
+      "note": 4.79,
+      "avis": 111,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1330,
+          "par_nuit_chf": 190,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-071248",
+      "source": "airbnb",
+      "titre": "Alpine Prestige | À deux pas des pistes de ski, du golf et du centre",
+      "url": "https://www.airbnb.ch/rooms/1580299614760071248",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1906,
+          "par_nuit_chf": 272,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-394083",
+      "source": "airbnb",
+      "titre": "2 chambres adaptées aux familles près des pistes de golf et de ski",
+      "url": "https://www.airbnb.ch/rooms/868662825936394083",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.82,
+      "avis": 28,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 939,
+          "par_nuit_chf": 134,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-484307",
+      "source": "airbnb",
+      "titre": "Super offre à Viva Crans Montana",
+      "url": "https://www.airbnb.ch/rooms/1318052648825484307",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 8,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1504,
+          "par_nuit_chf": 215,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        },
+        {
+          "periode": "P3",
+          "total_chf": 3223,
+          "par_nuit_chf": 460,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": null,
+            "total_detail_chf": 3223.0,
+            "lu_le": "2026-11-05T20:51:27.165Z",
+            "capture": "captures-hors-depot/frais-airbnb-484307-P3.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "0ae38a4be2740bf10ae4742dba34b669a94fa2e81180831e9bab8863d4452a40"
+          },
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 2165,
+          "par_nuit_chf": 309,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-161481",
+      "source": "airbnb",
+      "titre": "Vermala Soleil B 13 par Interhome",
+      "url": "https://www.airbnb.ch/rooms/16161481",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 4,
+      "prix": [
+        {
+          "periode": "P2",
+          "total_chf": 1008,
+          "par_nuit_chf": 144,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P2-pleine.png",
+          "verifie_le": "2026-11-05T20:44:45.229Z",
+          "sha256": "04abf9d4e940da2575fb7730b50cdac3c8a8a96e40e0c07b36cc69c95cbd1c2c",
+          "sha256_pleine": "a257d90b9ac075d179d515fcce52c68188c2588354a840001e7f521656d77246"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-453969",
+      "source": "airbnb",
+      "titre": "Élégance et sérénité | Penthouse avec vue panoramique",
+      "url": "https://www.airbnb.ch/rooms/1463005981163453969",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2079,
+          "par_nuit_chf": 297,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": null,
+            "total_detail_chf": 2079.0,
+            "lu_le": "2026-11-05T20:51:42.549Z",
+            "capture": "captures-hors-depot/frais-airbnb-453969-P3.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "cacd50e59ed8b3afbf9ff6f080c4287594bceb2d4f0e6bd59e9f290ff8e68d55"
+          },
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-036726",
+      "source": "airbnb",
+      "titre": "Bienvenue aux familles | À quelques pas de la télécabine | 1 place de parking incluse",
+      "url": "https://www.airbnb.ch/rooms/1516605151353036726",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2845,
+          "par_nuit_chf": 406,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": null,
+            "total_detail_chf": 2845.0,
+            "lu_le": "2026-11-05T20:51:58.235Z",
+            "capture": "captures-hors-depot/frais-airbnb-036726-P3.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "a07efa68442673c46fbc91a915f5629f550d57c280e6ca3d82417d2e09c313cf"
+          },
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-026161",
+      "source": "airbnb",
+      "titre": "Maison paisible avec vue imprenable et à 5 min des pistes",
+      "url": "https://www.airbnb.ch/rooms/735071751732026161",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.92,
+      "avis": 25,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2304,
+          "par_nuit_chf": 329,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-349245",
+      "source": "airbnb",
+      "titre": "Nid douillet | Tout est accessible à pied | 1 place de parking incluse",
+      "url": "https://www.airbnb.ch/rooms/1346968649206349245",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.75,
+      "avis": 4,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 4222,
+          "par_nuit_chf": 603,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-798857",
+      "source": "airbnb",
+      "titre": "Bel appartement idéalement situé à Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1581955983505798857",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 3057,
+          "par_nuit_chf": 437,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-537180",
+      "source": "airbnb",
+      "titre": "Nouvel hébergement",
+      "url": "https://www.airbnb.ch/rooms/1801612401671537180",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2203,
+          "par_nuit_chf": 315,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-246395",
+      "source": "airbnb",
+      "titre": "Résidence Orana 3 par Interhome",
+      "url": "https://www.airbnb.ch/rooms/724946794793246395",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 3036,
+          "par_nuit_chf": 434,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-152402",
+      "source": "airbnb",
+      "titre": "Nouvel hébergement",
+      "url": "https://www.airbnb.ch/rooms/1803708193448152402",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 1530,
+          "par_nuit_chf": 219,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-595363",
+      "source": "airbnb",
+      "titre": "Crans Paradise 100 m2 + sauna 5* jardin + garage",
+      "url": "https://www.airbnb.ch/rooms/19595363",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.94,
+      "avis": 18,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 3401,
+          "par_nuit_chf": 486,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-153921",
+      "source": "airbnb",
+      "titre": "Appartement 3 pièces avec magnifique vue",
+      "url": "https://www.airbnb.ch/rooms/23153921",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.96,
+      "avis": 25,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2730,
+          "par_nuit_chf": 390,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-972431",
+      "source": "airbnb",
+      "titre": "Charmant appartement avec vue imprenable sur la montagne",
+      "url": "https://www.airbnb.ch/rooms/49972431",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.75,
+      "avis": 8,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 1935,
+          "par_nuit_chf": 276,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-788149",
+      "source": "airbnb",
+      "titre": "Chaleur rétro à deux pas des pistes",
+      "url": "https://www.airbnb.ch/rooms/968786578642788149",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 9,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2761,
+          "par_nuit_chf": 394,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-799570",
+      "source": "airbnb",
+      "titre": "Clair-Azur A 41 par Interhome",
+      "url": "https://www.airbnb.ch/rooms/725042890010799570",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.75,
+      "avis": 4,
+      "prix": [
+        {
+          "periode": "P3",
+          "total_chf": 2079,
+          "par_nuit_chf": 297,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P3-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P3-pleine.png",
+          "verifie_le": "2026-11-05T20:45:13.680Z",
+          "sha256": "433f70ed489926bb9f2b1c01c51e177c4252ccd60bb0ca0c26ad9e686fd4b37e",
+          "sha256_pleine": "882fa9fb55d8bee4a5136f743eb76e8014b5b93322317bf12f002a8af67f5b5e"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-719719",
+      "source": "airbnb",
+      "titre": "Montana - Appartement cosy",
+      "url": "https://www.airbnb.ch/rooms/43719719",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.85,
+      "avis": 41,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 1461,
+          "par_nuit_chf": 209,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        },
+        {
+          "periode": "C1",
+          "total_chf": 600,
+          "par_nuit_chf": 300,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C1-pleine.png",
+          "verifie_le": "2026-11-05T20:48:53.240Z",
+          "sha256": "d08d5ada8b7dbd5373f5d03ab33869bb783285b9e97e8f3053340c6de3876eb2",
+          "sha256_pleine": "91688e20b7de69cea5cbf71703d3648fa1e4b52c241efbaf4f382866125280b1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-355274",
+      "source": "airbnb",
+      "titre": "Appartement au cœur de Crans-Montana !",
+      "url": "https://www.airbnb.ch/rooms/1577632464309355274",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 5.0,
+      "avis": 3,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 1643,
+          "par_nuit_chf": 235,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-298725",
+      "source": "airbnb",
+      "titre": "Cransalpin Apt. 25 / Secteur 1 by Interhome",
+      "url": "https://www.airbnb.ch/rooms/1719354442379298725",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3363,
+          "par_nuit_chf": 480,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": null,
+            "total_detail_chf": 3363.0,
+            "lu_le": "2026-11-05T20:50:39.346Z",
+            "capture": "captures-hors-depot/frais-airbnb-298725-P4.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "6b0b9a28d0deff3ca0208609dcd2a4857042924a9e73ca358f50a2dc56549375"
+          },
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1582,
+          "par_nuit_chf": 226,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 948,
+          "par_nuit_chf": 237,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-488188",
+      "source": "airbnb",
+      "titre": "Appartement rénové de 3,5 pièces - Vue imprenable",
+      "url": "https://www.airbnb.ch/rooms/1308824813384488188",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3266,
+          "par_nuit_chf": 467,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": 350.0,
+            "total_detail_chf": 3266.0,
+            "lu_le": "2026-11-05T20:52:28.425Z",
+            "capture": "captures-hors-depot/frais-airbnb-488188-P4.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "79d32badf5593448061886a92e46610ae49bc0d896544e14550b3f9cd393570b"
+          },
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        },
+        {
+          "periode": "P5",
+          "total_chf": 1636,
+          "par_nuit_chf": 234,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-888323",
+      "source": "airbnb",
+      "titre": "Superbe appartement rénové avec vue dégagée",
+      "url": "https://www.airbnb.ch/rooms/46888323",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.75,
+      "avis": 44,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3648,
+          "par_nuit_chf": 521,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "frais": {
+            "menage_chf": null,
+            "service_chf": null,
+            "reduction_chf": 388.5,
+            "total_detail_chf": 3647.5,
+            "lu_le": "2026-11-05T20:51:11.557Z",
+            "capture": "captures-hors-depot/frais-airbnb-888323-P4.png",
+            "note": "Détail Airbnb : nuits x prix + réduction éventuelle seulement ; ni ménage ni service affichés séparément (inclus dans le prix par nuit)",
+            "sha256": "35ab8039663384afaa01d7633eb58b7cd7397f3493786807dce473bab6037dcb"
+          },
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1594,
+          "par_nuit_chf": 228,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1594,
+          "par_nuit_chf": 228,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-107707",
+      "source": "airbnb",
+      "titre": "Chalet unique sur les pistes de ski Crans Montana",
+      "url": "https://www.airbnb.ch/rooms/52107707",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 5.0,
+      "avis": 13,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 1948,
+          "par_nuit_chf": 278,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-897484",
+      "source": "airbnb",
+      "titre": "Alpin Chic | Centre ski et vie locale à pied",
+      "url": "https://www.airbnb.ch/rooms/1535460851793897484",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.86,
+      "avis": 7,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 4705,
+          "par_nuit_chf": 672,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-082337",
+      "source": "airbnb",
+      "titre": "Entre deux ascenseurs",
+      "url": "https://www.airbnb.ch/rooms/1734859089451082337",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.9,
+      "avis": 10,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 2300,
+          "par_nuit_chf": 329,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-686398",
+      "source": "airbnb",
+      "titre": "Nouvel hébergement",
+      "url": "https://www.airbnb.ch/rooms/1786872460516686398",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 2664,
+          "par_nuit_chf": 381,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-329666",
+      "source": "airbnb",
+      "titre": "Nouvel hébergement",
+      "url": "https://www.airbnb.ch/rooms/1768861059716329666",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3160,
+          "par_nuit_chf": 451,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-768332",
+      "source": "airbnb",
+      "titre": "Escapade romantique | Cuisine gastronomique | Dernier étage",
+      "url": "https://www.airbnb.ch/rooms/1346968431810768332",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 5.0,
+      "avis": 4,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3979,
+          "par_nuit_chf": 568,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-003031",
+      "source": "airbnb",
+      "titre": "proximité télécabine Cy d'Er et centre, garage +",
+      "url": "https://www.airbnb.ch/rooms/53003031",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 4320,
+          "par_nuit_chf": 617,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-853237",
+      "source": "airbnb",
+      "titre": "Vue lac et montagnes au coeur de Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1574118299267853237",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 5.0,
+      "avis": 3,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 2663,
+          "par_nuit_chf": 380,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-910087",
+      "source": "airbnb",
+      "titre": "Appartement moderne de 3,5 pièces avec vue panoramique",
+      "url": "https://www.airbnb.ch/rooms/1700883558103910087",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 10,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 3192,
+          "par_nuit_chf": 456,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 669,
+          "par_nuit_chf": 167,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-056150",
+      "source": "airbnb",
+      "titre": "Balcon et magnifique vue sur les Alpes",
+      "url": "https://www.airbnb.ch/rooms/1060846169896056150",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.9,
+      "avis": 10,
+      "prix": [
+        {
+          "periode": "P4",
+          "total_chf": 4633,
+          "par_nuit_chf": 662,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P4-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P4-pleine.png",
+          "verifie_le": "2026-11-05T20:45:43.699Z",
+          "sha256": "64c15728cf61dd9d4e6bf889d5b849003995422e2fdfc1e6fd2b134b3182f007",
+          "sha256_pleine": "415cd97f39fb20d55333c6fb06d65e5900b3cc175e5433f17ceef6bb14ffea26"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-647885",
+      "source": "airbnb",
+      "titre": "Appartement rénové - vue sur montagne",
+      "url": "https://www.airbnb.ch/rooms/999734411975647885",
+      "type": "Appartement en résidence",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 5.0,
+      "avis": 38,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 2813,
+          "par_nuit_chf": 402,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-636202",
+      "source": "airbnb",
+      "titre": "Entièrement rénové au centre de Montana",
+      "url": "https://www.airbnb.ch/rooms/1387492295118636202",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 15,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 3019,
+          "par_nuit_chf": 431,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 2053,
+          "par_nuit_chf": 293,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 2332,
+          "par_nuit_chf": 333,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-362759",
+      "source": "airbnb",
+      "titre": "Appartement familial vintage avec vue sur les Alpes et parking",
+      "url": "https://www.airbnb.ch/rooms/1589803205548362759",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 1767,
+          "par_nuit_chf": 252,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        },
+        {
+          "periode": "P6",
+          "total_chf": 1352,
+          "par_nuit_chf": 193,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1346,
+          "par_nuit_chf": 192,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 1019,
+          "par_nuit_chf": 255,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-506708",
+      "source": "airbnb",
+      "titre": "Appartement lumineux à Crans, proche du Golf",
+      "url": "https://www.airbnb.ch/rooms/1350025261992506708",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 9,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 1917,
+          "par_nuit_chf": 274,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-011755",
+      "source": "airbnb",
+      "titre": "APPARTEMENT TRÈS AGRÉABLE ET CONFORTABLE POUR LES FAMILLES",
+      "url": "https://www.airbnb.ch/rooms/20011755",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.85,
+      "avis": 120,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 1544,
+          "par_nuit_chf": 221,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 920,
+          "par_nuit_chf": 230,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-145324",
+      "source": "airbnb",
+      "titre": "Chalet typique entièrement rénové",
+      "url": "https://www.airbnb.ch/rooms/1576716582727145324",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 6,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 2009,
+          "par_nuit_chf": 287,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1996,
+          "par_nuit_chf": 285,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-499931",
+      "source": "airbnb",
+      "titre": "Bel appartement luxueux de 150 m2 avec vue splendide",
+      "url": "https://www.airbnb.ch/rooms/27499931",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 4,
+      "garage": null,
+      "note": 4.8,
+      "avis": 69,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 2740,
+          "par_nuit_chf": 391,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-531565",
+      "source": "airbnb",
+      "titre": "Joli appartement pour amoureux.se.s de la montagne",
+      "url": "https://www.airbnb.ch/rooms/562177105220531565",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.95,
+      "avis": 42,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 1113,
+          "par_nuit_chf": 159,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-853865",
+      "source": "airbnb",
+      "titre": "Un bijou, rénové, romantique, hyper central",
+      "url": "https://www.airbnb.ch/rooms/45853865",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.95,
+      "avis": 84,
+      "prix": [
+        {
+          "periode": "P5",
+          "total_chf": 1681,
+          "par_nuit_chf": 240,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P5-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P5-pleine.png",
+          "verifie_le": "2026-11-05T20:46:11.901Z",
+          "sha256": "6208f9904cac3f1ab456b4315b2be82ff169aa77f664142b4e59913ab70da1f8",
+          "sha256_pleine": "8d056358f7b1dead09e58e355983aa4f636b443d33ade93885b9c20ca9387c4c"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-616747",
+      "source": "airbnb",
+      "titre": "Appartement ensoleillé avec balcon sur les Alpes",
+      "url": "https://www.airbnb.ch/rooms/51616747",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.61,
+      "avis": 38,
+      "prix": [
+        {
+          "periode": "P6",
+          "total_chf": 916,
+          "par_nuit_chf": 131,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 463,
+          "par_nuit_chf": 232,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-397573",
+      "source": "airbnb",
+      "titre": "Magnifique vue",
+      "url": "https://www.airbnb.ch/rooms/786339352741397573",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.87,
+      "avis": 15,
+      "prix": [
+        {
+          "periode": "P6",
+          "total_chf": 2167,
+          "par_nuit_chf": 310,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-513032",
+      "source": "airbnb",
+      "titre": "RARE ! Appartement au centre de Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/976488073013513032",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.88,
+      "avis": 51,
+      "prix": [
+        {
+          "periode": "P6",
+          "total_chf": 991,
+          "par_nuit_chf": 142,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-265739",
+      "source": "airbnb",
+      "titre": "Chalet de montagne - Alpes suisses",
+      "url": "https://www.airbnb.ch/rooms/45265739",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 5,
+      "garage": null,
+      "note": 4.83,
+      "avis": 47,
+      "prix": [
+        {
+          "periode": "P6",
+          "total_chf": 1730,
+          "par_nuit_chf": 247,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1"
+        },
+        {
+          "periode": "P7",
+          "total_chf": 1730,
+          "par_nuit_chf": 247,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-424783",
+      "source": "airbnb",
+      "titre": "Appartement spacieux avec une belle vue",
+      "url": "https://www.airbnb.ch/rooms/17424783",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.83,
+      "avis": 157,
+      "prix": [
+        {
+          "periode": "P6",
+          "total_chf": 1081,
+          "par_nuit_chf": 154,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P6-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P6-pleine.png",
+          "verifie_le": "2026-11-05T20:46:51.257Z",
+          "sha256": "3c4abfb9b5336b299264c4d767dfcb4256a998b51091c027219f563408146ec1",
+          "sha256_pleine": "7f169d598eeb27125a31c2df52200f3b36e74a70c32dbf1b2685c15245bf36a4"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 442,
+          "par_nuit_chf": 221,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-740586",
+      "source": "airbnb",
+      "titre": "Crans-Montana : appartement bien situé",
+      "url": "https://www.airbnb.ch/rooms/5740586",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.86,
+      "avis": 105,
+      "prix": [
+        {
+          "periode": "P7",
+          "total_chf": 805,
+          "par_nuit_chf": 115,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-597936",
+      "source": "airbnb",
+      "titre": "Appartement rénové offrant une vue imprenable sur les Alpes suisses",
+      "url": "https://www.airbnb.ch/rooms/1088338115500597936",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.88,
+      "avis": 8,
+      "prix": [
+        {
+          "periode": "P7",
+          "total_chf": 1358,
+          "par_nuit_chf": 194,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-489111",
+      "source": "airbnb",
+      "titre": "Vacances à Crans",
+      "url": "https://www.airbnb.ch/rooms/22489111",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 5.0,
+      "avis": 27,
+      "prix": [
+        {
+          "periode": "P7",
+          "total_chf": 1105,
+          "par_nuit_chf": 158,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-456425",
+      "source": "airbnb",
+      "titre": "Appartement confortable - Crans Montana près des pistes",
+      "url": "https://www.airbnb.ch/rooms/38456425",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.86,
+      "avis": 107,
+      "prix": [
+        {
+          "periode": "P7",
+          "total_chf": 1048,
+          "par_nuit_chf": 150,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 786,
+          "par_nuit_chf": 196,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-333855",
+      "source": "airbnb",
+      "titre": "Chalet avec vue de rêve dans le domaine skiable de Crans Montana",
+      "url": "https://www.airbnb.ch/rooms/16333855",
+      "type": "Chalet",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.98,
+      "avis": 133,
+      "prix": [
+        {
+          "periode": "P7",
+          "total_chf": 2172,
+          "par_nuit_chf": 310,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P7-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P7-pleine.png",
+          "verifie_le": "2026-11-05T20:47:36.337Z",
+          "sha256": "62f9581187826b5cd5855dfb73c772be7ac157ea35604977510045ac8caef1ed",
+          "sha256_pleine": "b53398c8a29c60de252b9c788ac77158d9c16b14f8f1b428e1c2bff43d6865fe"
+        },
+        {
+          "periode": "P8",
+          "total_chf": 1576,
+          "par_nuit_chf": 394,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-252106",
+      "source": "airbnb",
+      "titre": "Superbe appartement avec vue imprenable",
+      "url": "https://www.airbnb.ch/rooms/691011109592252106",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.84,
+      "avis": 62,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 770,
+          "par_nuit_chf": 192,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 360,
+          "par_nuit_chf": 180,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-381814",
+      "source": "airbnb",
+      "titre": "Résidence Terrazza 1 by Interhome",
+      "url": "https://www.airbnb.ch/rooms/1567119146330381814",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 5.0,
+      "avis": 3,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 1131,
+          "par_nuit_chf": 283,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-496096",
+      "source": "airbnb",
+      "titre": "L’appartement du bonheur 2",
+      "url": "https://www.airbnb.ch/rooms/932430072414496096",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 5.0,
+      "avis": 22,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 831,
+          "par_nuit_chf": 208,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-027719",
+      "source": "airbnb",
+      "titre": "Appartement de luxe flambant neuf avec vue imprenable",
+      "url": "https://www.airbnb.ch/rooms/47027719",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.8,
+      "avis": 50,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 1150,
+          "par_nuit_chf": 288,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-420194",
+      "source": "airbnb",
+      "titre": "Penthouse familial avec vue sur les Alpes suisses",
+      "url": "https://www.airbnb.ch/rooms/1274375437245420194",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 4,
+      "garage": null,
+      "note": 4.77,
+      "avis": 31,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 1348,
+          "par_nuit_chf": 337,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 644,
+          "par_nuit_chf": 322,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-929029",
+      "source": "airbnb",
+      "titre": "Magnifique grenier à Crans Montana",
+      "url": "https://www.airbnb.ch/rooms/996760975134929029",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 5.0,
+      "avis": 38,
+      "prix": [
+        {
+          "periode": "P8",
+          "total_chf": 1870,
+          "par_nuit_chf": 468,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-P8a-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-P8-pleine.png",
+          "verifie_le": "2026-11-05T20:48:17.235Z",
+          "sha256": "c46007028fdec6f19925bf68287ed0886055055a1a9d4019cd4829741cbe2135",
+          "sha256_pleine": "866d77867f3cec3d41125fc2ba65ad8e5090195686d12de1541d62cf0871eeb7"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-932301",
+      "source": "airbnb",
+      "titre": "Ski aux pieds, Cabines Cry-d'Er",
+      "url": "https://www.airbnb.ch/rooms/994667573565932301",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.94,
+      "avis": 16,
+      "prix": [
+        {
+          "periode": "C1",
+          "total_chf": 1628,
+          "par_nuit_chf": 814,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C1-pleine.png",
+          "verifie_le": "2026-11-05T20:48:53.240Z",
+          "sha256": "d08d5ada8b7dbd5373f5d03ab33869bb783285b9e97e8f3053340c6de3876eb2",
+          "sha256_pleine": "91688e20b7de69cea5cbf71703d3648fa1e4b52c241efbaf4f382866125280b1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-794017",
+      "source": "airbnb",
+      "titre": "\"Cocon Alpin\" Balcon Ensoleillé & Nature",
+      "url": "https://www.airbnb.ch/rooms/53794017",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.94,
+      "avis": 135,
+      "prix": [
+        {
+          "periode": "C1",
+          "total_chf": 1829,
+          "par_nuit_chf": 914,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C1-pleine.png",
+          "verifie_le": "2026-11-05T20:48:53.240Z",
+          "sha256": "d08d5ada8b7dbd5373f5d03ab33869bb783285b9e97e8f3053340c6de3876eb2",
+          "sha256_pleine": "91688e20b7de69cea5cbf71703d3648fa1e4b52c241efbaf4f382866125280b1"
+        },
+        {
+          "periode": "C2",
+          "total_chf": 508,
+          "par_nuit_chf": 254,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-806327",
+      "source": "airbnb",
+      "titre": "Appartement douillet Crans-Montana",
+      "url": "https://www.airbnb.ch/rooms/1470897158332806327",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "C1",
+          "total_chf": 2100,
+          "par_nuit_chf": 1050,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C1-pleine.png",
+          "verifie_le": "2026-11-05T20:48:53.240Z",
+          "sha256": "d08d5ada8b7dbd5373f5d03ab33869bb783285b9e97e8f3053340c6de3876eb2",
+          "sha256_pleine": "91688e20b7de69cea5cbf71703d3648fa1e4b52c241efbaf4f382866125280b1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-851382",
+      "source": "airbnb",
+      "titre": "Appartement à louer à la semaine",
+      "url": "https://www.airbnb.ch/rooms/899831273144851382",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": null,
+      "avis": null,
+      "prix": [
+        {
+          "periode": "C1",
+          "total_chf": 740,
+          "par_nuit_chf": 370,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C1-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C1-pleine.png",
+          "verifie_le": "2026-11-05T20:48:53.240Z",
+          "sha256": "d08d5ada8b7dbd5373f5d03ab33869bb783285b9e97e8f3053340c6de3876eb2",
+          "sha256_pleine": "91688e20b7de69cea5cbf71703d3648fa1e4b52c241efbaf4f382866125280b1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-107459",
+      "source": "airbnb",
+      "titre": "Magnifique attique neuf",
+      "url": "https://www.airbnb.ch/rooms/1073190626703107459",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 3,
+      "garage": null,
+      "note": 4.97,
+      "avis": 35,
+      "prix": [
+        {
+          "periode": "C2",
+          "total_chf": 720,
+          "par_nuit_chf": 360,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-613930",
+      "source": "airbnb",
+      "titre": "Superbe 2 pièces en plein centre de Montana",
+      "url": "https://www.airbnb.ch/rooms/1050056936502613930",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.83,
+      "avis": 42,
+      "prix": [
+        {
+          "periode": "C2",
+          "total_chf": 401,
+          "par_nuit_chf": 200,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-774860",
+      "source": "airbnb",
+      "titre": "Appartement de 2,5 pièces (60 m2), central et garage",
+      "url": "https://www.airbnb.ch/rooms/940336205398774860",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 1,
+      "garage": null,
+      "note": 4.92,
+      "avis": 72,
+      "prix": [
+        {
+          "periode": "C2",
+          "total_chf": 473,
+          "par_nuit_chf": 236,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-334330",
+      "source": "airbnb",
+      "titre": "Votre endroit idéal dans le centre de Crans-Montana !",
+      "url": "https://www.airbnb.ch/rooms/53334330",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.97,
+      "avis": 88,
+      "prix": [
+        {
+          "periode": "C2",
+          "total_chf": 700,
+          "par_nuit_chf": 350,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_pleine": "captures-hors-depot/airbnb-C2-pleine.png",
+          "verifie_le": "2026-11-05T20:49:30.654Z",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4",
+          "sha256_pleine": "aa608aab3ba915d9aa4485ac51b02dca922c1d70a5b97b2e5361a2fedf3b488f"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-670160",
+      "source": "airbnb",
+      "titre": "Appartement \"La Transhumance\"",
+      "url": "https://www.airbnb.ch/rooms/1523212244023670160",
+      "type": "Appartement",
+      "capacite": null,
+      "chambres": 2,
+      "garage": null,
+      "note": 4.96,
+      "avis": 57,
+      "prix": [
+        {
+          "periode": "C2",
+          "total_chf": 331,
+          "par_nuit_chf": 166,
+          "par_nuit_calcule": "total / nuits",
+          "devise_affichee": "Fr. (CHF)",
+          "lu_le": "2026-11-05",
+          "capture": "captures-hors-depot/airbnb-C2-1280.png",
+          "capture_partielle": true,
+          "note": "annonce absente des résultats au 2e passage",
+          "sha256": "c4724fd6ca66bec4e5aaaf3705ea021525e39542fbc8e3e35e11bd7c2a0a22a4"
+        }
+      ]
+    },
+    {
+      "id": "immocrans-5405749",
+      "source": "immocrans",
+      "titre": "LOC 22 - RICHEMONT B11 (Richemont 3B)",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": 68,
+      "capacite": "4 à 5",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 1960,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-5608119",
+      "source": "immocrans",
+      "titre": "LOC 75 - BEAUREGARD",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5608119",
+      "pieces": 4,
+      "chambres": 3,
+      "surface_m2": 120,
+      "capacite": "6",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 2450,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6173823",
+      "source": "immocrans",
+      "titre": "LOC 86 - CHALET GLORIA 1er",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-montana-6173823",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": null,
+      "capacite": "4",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 1050,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6173915",
+      "source": "immocrans",
+      "titre": "LOC 87 - CHALET GLORIA REZ",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-montana-6173915",
+      "pieces": 4.5,
+      "chambres": 3,
+      "surface_m2": null,
+      "capacite": "6",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 4500,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6199681",
+      "source": "immocrans",
+      "titre": "LOC 82 - VALDOR A",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6199681",
+      "pieces": 4.5,
+      "chambres": 3,
+      "surface_m2": null,
+      "capacite": "5",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 3850,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6211327",
+      "source": "immocrans",
+      "titre": "LOC 84 - NEW-FOREST A",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6211327",
+      "pieces": 5.5,
+      "chambres": 4,
+      "surface_m2": null,
+      "capacite": "8",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 3850,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6217745",
+      "source": "immocrans",
+      "titre": "LOC 94 - MARINA",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6217745",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": null,
+      "capacite": "4",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 1500,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6225803",
+      "source": "immocrans",
+      "titre": "LOC 34 - LES PINS",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6225803",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": null,
+      "capacite": "4 à 6",
+      "garage_ou_parking_inclus": null,
+      "prix_des_chf": 1610,
+      "unite": "période non précisée",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6226261",
+      "source": "immocrans",
+      "titre": "LOC 103 - RESIDENCE DE LA FORET A",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6226261",
+      "pieces": 4.5,
+      "chambres": 3,
+      "surface_m2": 125,
+      "capacite": "6",
+      "garage_ou_parking_inclus": false,
+      "prix_des_chf": 2450,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6304537",
+      "source": "immocrans",
+      "titre": "LOC 105 - SUNNY",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6304537",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": null,
+      "capacite": "5",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 2300,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6305833",
+      "source": "immocrans",
+      "titre": "LOC 199 - GOLF BELLERIVE",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6305833",
+      "pieces": 3.5,
+      "chambres": 2,
+      "surface_m2": null,
+      "capacite": "4 à 6",
+      "garage_ou_parking_inclus": true,
+      "prix_des_chf": 1850,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    },
+    {
+      "id": "immocrans-6309775",
+      "source": "immocrans",
+      "titre": "LOC 115 - ORANA (villa/chalet 6.5 p.)",
+      "url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-6309775",
+      "pieces": 6.5,
+      "chambres": 5,
+      "surface_m2": 250,
+      "capacite": "10",
+      "garage_ou_parking_inclus": null,
+      "prix_des_chf": 5600,
+      "unite": "semaine",
+      "lu_le": "2026-11-05",
+      "note": "prix « à partir de » (basse saison probable), sujet à variations selon période et saison ; pas de grille basse/haute affichée"
+    }
+  ],
+  "richemont3b": {
+    "immocrans_semaine_chf": 1960,
+    "immocrans_url": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+    "airbnb_url": "https://www.airbnb.ch/rooms/1761780411178216809",
+    "airbnb": [
+      {
+        "periode": "P1",
+        "arrivee": "2026-11-14",
+        "depart": "2026-11-21",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P1-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "34b07834448e3665d5d4e723e3163e337351e6ce94024ecc31da506b4f649ee4"
+      },
+      {
+        "periode": "P2",
+        "arrivee": "2026-12-12",
+        "depart": "2026-12-19",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P2-1280.png",
+        "total_chf": 1512,
+        "par_nuit_chf": 216,
+        "devise_affichee": "Fr. (CHF)",
+        "statut": "prix affiché",
+        "sha256": "e9411544708af228281d5a5d5f7b3815121d9fd8800c8da86857b98c92e45194"
+      },
+      {
+        "periode": "P3",
+        "arrivee": "2026-12-26",
+        "depart": "2027-01-02",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P3-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "6082c2f8c1012bc582e5eb7c8656e0ecb432b94fd3208a3814e6cfb3a94afb2c"
+      },
+      {
+        "periode": "P4",
+        "arrivee": "2027-02-06",
+        "depart": "2027-02-13",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P4-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "bfcf1daa7f364bbac1583d9bba041d5217e83e30216ea8df0c00d6aa43065dac"
+      },
+      {
+        "periode": "P5",
+        "arrivee": "2027-02-20",
+        "depart": "2027-02-27",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P5-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "d0f4e378c70f612d4629a93ffd55f737d8142f70850adc11a000cf1550117b49"
+      },
+      {
+        "periode": "P6",
+        "arrivee": "2027-03-20",
+        "depart": "2027-03-27",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P6-1280.png",
+        "total_chf": 1884,
+        "par_nuit_chf": 269,
+        "devise_affichee": "Fr. (CHF)",
+        "statut": "prix affiché",
+        "sha256": "bc60bab17040b206e121454ce8b3698666cf46ec4fe154996800d32cc0a30556"
+      },
+      {
+        "periode": "P7",
+        "arrivee": "2027-07-17",
+        "depart": "2027-07-24",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P7-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "c0e13542dac920bf3f1e72da5ae51b2f141f118a566a689c0868bc441af3640f"
+      },
+      {
+        "periode": "P8",
+        "arrivee": "2027-09-02",
+        "depart": "2027-09-06",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-P8a-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "6edaf4b933fd93f6749bde50e842f8038859bfd32cdc930df36fcbcfc5d3b6c7"
+      },
+      {
+        "periode": "C1",
+        "arrivee": "2027-02-12",
+        "depart": "2027-02-14",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-C1-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "90a7236079dca90c71aabcb6b42a289573f3d2232e09f800ce2c15094565fb88"
+      },
+      {
+        "periode": "C2",
+        "arrivee": "2027-03-05",
+        "depart": "2027-03-07",
+        "lu_le": "2026-11-05",
+        "capture": "captures-hors-depot/airbnb-richemont3b-C2-1280.png",
+        "statut": "dates non disponibles (Airbnb : « Ces dates ne sont pas disponibles »), pas de prix affiché",
+        "sha256": "c483590c3e57b72d300d371fddb4077d278dbb1c4d556d3370784a52c15f89da"
+      }
+    ]
+  },
+  "booking": {
+    "statut": "illisible : la page ignore dates, destination et nombre d'adultes (affiche 5-6 nov., 2 adultes, 0 établissement) ; aucun prix relevé",
+    "captures": [
+      "captures-hors-depot/booking-P4-1280.png",
+      "captures-hors-depot/booking-P2-1280.png"
+    ],
+    "sha256": [
+      "9bd1e1f5b421278e2085f6e678034cd85019e9342dcf65d9b4a01872f5c87390",
+      "c0a1c7b9e1d4d092eb3d304d3f040fdc801308a914f11c9ca4e25a3777590825"
+    ]
+  },
+  "limites": [
+    "Airbnb : 15 premières annonces « Crans-Montana » par période (tri par défaut Airbnb, non représentatif) ; annonces hors station (Ayent, Flanthey…) et celles dont les dates affichées diffèrent de la période sont écartées.",
+    "Prix par nuit = total affiché / nombre de nuits (calcul, pas une valeur lue). Total « au total » après réductions affichées (ex. réduction à la semaine) ; inclusion des frais de service et de ménage non vérifiée.",
+    "Capacité et garage non affichés sur les cartes Airbnb : null. Chambres lues quand affichées.",
+    "Prix dynamiques : valables le 2026-11-05 seulement ; annonces déjà réservées sur les dates absentes des résultats (biais vers le bas des prix des périodes très demandées ? non mesuré).",
+    "ImmoCrans : prix « à partir de » hebdomadaires, pas de grille par période ; 2 pages de liste lues (14 liens uniques), aucune pagination vue.",
+    "Richemont 3B Airbnb : prix lu pour P2 et P6 seulement ; autres périodes « dates non disponibles » (réservé, bloqué ou calendrier fermé : indistinguable).",
+    "Booking : page illisible (paramètres ignorés, 0 établissement) ; aucun prix.",
+    "P8b (2026-09-05 → 09-12) : passé, Airbnb ignore les dates ; non relevé. OEM 2027 (2-5 sept. 2027) : dates tirées de valais.ch, source unique, non revérifiée.",
+    "Annonces de station Airbnb : plusieurs mêmes annonces entre périodes (id par annonce)."
+  ],
+  "verification_pleine_page": {
+    "date": "2026-11-05T20:49:30.654Z",
+    "methode": "captures pleine page 1280px, total lu dans les cartes DOM, voir preuves-releve.md"
+  },
+  "preuves": {
+    "conservees_hors_depot": true,
+    "dossier_local": "captures conservées hors dépôt (dossier local ignoré par git, jamais publié)",
+    "note": "Captures pleine page des pages de résultats (photos d'annonces tierces) conservées hors dépôt ; empreintes SHA-256 dans ce fichier."
+  }
+}

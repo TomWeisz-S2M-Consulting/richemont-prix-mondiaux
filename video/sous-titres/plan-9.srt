@@ -1,0 +1,18 @@
+1
+00:00:00,300 --> 00:00:03,524
+Cent cinquante-sept tests, sans rien
+installer :
+
+2
+00:00:03,524 --> 00:00:08,831
+quartiles recalculés, dates, doublons,
+corpus figé avant le code, soixante-sept
+
+3
+00:00:08,831 --> 00:00:11,786
+phrases écrites pour casser le
+vérificateur.
+
+4
+00:00:11,786 --> 00:00:14,540
+Et trente-huit contrôles de bout en bout.

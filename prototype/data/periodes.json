@@ -1,0 +1,225 @@
+{
+ "horizon": {
+  "debut": "2026-11-14",
+  "fin": "2027-11-26",
+  "note": "fin exclusive de chaque période"
+ },
+ "periodes": [
+  {
+   "id": "automne26",
+   "nom": {
+    "fr": "Automne 2026",
+    "en": "Autumn 2026"
+   },
+   "debut": "2026-11-14",
+   "fin": "2026-11-28",
+   "nuitsMin": 2,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "H",
+   "moteur": "intersaison, remontées fermées",
+   "fenetres": [
+    "P1"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "preouv",
+   "nom": {
+    "fr": "Préouverture ski",
+    "en": "Pre-opening ski"
+   },
+   "debut": "2026-11-28",
+   "fin": "2026-12-19",
+   "nuitsMin": 2,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "C",
+   "moteur": "ouverture partielle selon enneigement (date : constaté, demande : hypothèse)",
+   "fenetres": [
+    "P2"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "fetes",
+   "nom": {
+    "fr": "Fêtes de fin d'année",
+    "en": "Christmas and New Year"
+   },
+   "debut": "2026-12-19",
+   "fin": "2027-01-03",
+   "nuitsMin": 7,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "C",
+   "moteur": "ouverture générale 19/12, Noël et Nouvel An (fin 03/01 : hypothèse)",
+   "fenetres": [
+    "P3"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "janv",
+   "nom": {
+    "fr": "Ski janvier",
+    "en": "Ski January"
+   },
+   "debut": "2027-01-03",
+   "fin": "2027-02-01",
+   "nuitsMin": 3,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "C",
+   "moteur": "ski, week-ends",
+   "fenetres": [],
+   "sousLignes": []
+  },
+  {
+   "id": "mondiaux",
+   "nom": {
+    "fr": "Mondiaux de ski alpin FIS 2027",
+    "en": "FIS Alpine World Ski Championships 2027"
+   },
+   "debut": "2027-02-01",
+   "fin": "2027-02-15",
+   "nuitsMin": 7,
+   "nuitsMinStatut": "H",
+   "source": "https://www.cransmontana2027.ch/",
+   "statut": "C",
+   "moteur": "14 jours de courses (1-14/02/2027), équipes, médias, public",
+   "fenetres": [
+    "P4"
+   ],
+   "sousLignes": [
+    {
+     "id": "mondiaux-court",
+     "nom": {
+      "fr": "Mondiaux, court séjour (2 nuits)",
+      "en": "World Championships, short stay (2 nights)"
+     },
+     "nuitsMin": 2,
+     "fenetres": [
+      "C1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fevrier",
+   "nom": {
+    "fr": "Vacances de février hors Mondiaux",
+    "en": "February holidays outside the Championships"
+   },
+   "debut": "2027-02-15",
+   "fin": "2027-03-07",
+   "nuitsMin": 5,
+   "nuitsMinStatut": "H",
+   "source": "https://www.ge.ch/vacances-scolaires-jours-feries/vacances-scolaires-2026-2027",
+   "statut": "C",
+   "moteur": "relâches, vacances de Genève 15-19/02/2027 (autres cantons : hypothèse)",
+   "fenetres": [
+    "P5"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "mars",
+   "nom": {
+    "fr": "Fin de saison et Pâques",
+    "en": "End of season and Easter"
+   },
+   "debut": "2027-03-07",
+   "fin": "2027-04-05",
+   "nuitsMin": 3,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "C",
+   "moteur": "ski de printemps, Pâques 28/03/2027, fermeture 04/04/2027 selon météo",
+   "fenetres": [
+    "P6"
+   ],
+   "sousLignes": [
+    {
+     "id": "mars-court",
+     "nom": {
+      "fr": "Fin de saison, court séjour (2 nuits)",
+      "en": "End of season, short stay (2 nights)"
+     },
+     "nuitsMin": 2,
+     "fenetres": [
+      "C2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "printemps",
+   "nom": {
+    "fr": "Intersaison printemps",
+    "en": "Spring off-season"
+   },
+   "debut": "2027-04-05",
+   "fin": "2027-06-19",
+   "nuitsMin": 2,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "H",
+   "moteur": "faible, remontées fermées",
+   "fenetres": [],
+   "sousLignes": []
+  },
+  {
+   "id": "ete",
+   "nom": {
+    "fr": "Été",
+    "en": "Summer"
+   },
+   "debut": "2027-06-19",
+   "fin": "2027-08-31",
+   "nuitsMin": 3,
+   "nuitsMinStatut": "H",
+   "source": "https://www.crans-montana.ch/",
+   "statut": "H",
+   "moteur": "vacances d'été, golf, randonnée (bornes : hypothèse)",
+   "fenetres": [
+    "P7"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "oem",
+   "nom": {
+    "fr": "Omega European Masters 2027",
+    "en": "Omega European Masters 2027"
+   },
+   "debut": "2027-08-31",
+   "fin": "2027-09-06",
+   "nuitsMin": 4,
+   "nuitsMinStatut": "H",
+   "source": "https://www.valais.ch/fr/evenements/omega-european-masters",
+   "statut": "C",
+   "moteur": "tournoi de golf 2-5/09/2027 (source unique, provisoire)",
+   "fenetres": [
+    "P8"
+   ],
+   "sousLignes": []
+  },
+  {
+   "id": "automne27",
+   "nom": {
+    "fr": "Automne 2027",
+    "en": "Autumn 2027"
+   },
+   "debut": "2027-09-06",
+   "fin": "2027-11-26",
+   "nuitsMin": 2,
+   "nuitsMinStatut": "H",
+   "source": "https://www.mycma.ch/en-US/winter-prices/",
+   "statut": "H",
+   "moteur": "intersaison, faible",
+   "fenetres": [],
+   "sousLignes": []
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+# Dégagement de la crête et axe du pic, 2026-11-10T11:41 (Chrome sans écran, Playwright)
+Règle : crête − bruit du shader ≥ 16 px sous chaque bouton et chaque texte de la scène ; |sommet − centre de l'étiquette| < 8 px.
+OK  webgl 1280 px : image canvas · bruit déduit 20 px · écart minimal 22 px (titre-accueil 194 ; lede 75 ; bt-voir 60 ; bt-verif2 22 ; nuit-leg 161) · sommet − étiquette 0 px · étiquette allumée true · scrollWidth 1280
+OK  webgl 390 px : image canvas · bruit déduit 21 px · écart minimal 39 px (titre-accueil 292 ; lede 211 ; bt-voir 143 ; bt-verif2 242 ; nuit-leg 39) · sommet − étiquette 0 px · étiquette allumée true · scrollWidth 390
+OK  repli 1280 px : image nuit.webp · bruit déduit 20 px · écart minimal 22 px (titre-accueil 194 ; lede 75 ; bt-voir 60 ; bt-verif2 22 ; nuit-leg 161) · sommet − étiquette 0 px · étiquette allumée true · scrollWidth 1280
+OK  repli 390 px : image nuit-390.webp · bruit déduit 21 px · écart minimal 39 px (titre-accueil 292 ; lede 211 ; bt-voir 143 ; bt-verif2 242 ; nuit-leg 39) · sommet − étiquette 0 px · étiquette allumée true · scrollWidth 390

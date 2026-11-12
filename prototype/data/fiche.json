@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "nom": "Richemont 3B",
+    "etiquette": "Fiche de vérité : chaque champ indique sa source et sa date. [C-HTML] = lu dans le HTML réel.",
+    "date_releve": "2026-11-05"
+  },
+  "champs": {
+    "chambres": {
+      "valeur": 2,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "\"numberOfBedrooms\":2"
+    },
+    "salles_eau": {
+      "valeur": 2,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "\"numberOfBathroomsTotal\":2"
+    },
+    "capacite": {
+      "valeur": 5,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "\"occupancy\":{\"@type\":\"QuantitativeValue\",\"value\":5}"
+    },
+    "couchages": {
+      "valeur": 5,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "2 couchages dans la chambre double | 2 ou 3 couchages dans la chambre familiale",
+      "note": "2 (chambre double) + 2 ou 3 (chambre familiale, lit gigogne)"
+    },
+    "surface_utile_m2": {
+      "valeur": 74,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":74,\"unitCode\":\"MTK\"}",
+      "note": "ImmoCrans donne 73.8 m² (surface utile précise)"
+    },
+    "surface_habitable_m2": {
+      "valeur": 68,
+      "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Surface habitable | 68 m²",
+      "note": "deux mesures : 74 m² utiles (73,8) et 68 m² habitables, pas une incohérence"
+    },
+    "balcons": {
+      "valeur": 2,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "2|balcons",
+      "note": "HTML visible du site : « 2 balcons » (balcon nord, terrasse sud 11,5 m²)"
+    },
+    "etage": {
+      "valeur": 1,
+      "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "date": "2026-11-05",
+      "statut": "source unique",
+      "extrait": "Étage | 1er étage",
+      "note": "absent du site"
+    },
+    "adresse": {
+      "valeur": "Rue du Pas-de-l'Ours 3B, 3963 Crans-Montana",
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "\"streetAddress\":\"Rue du Pas-de-l’Ours 3B\",\"postalCode\":\"3963\",\"addressLocality\":\"Crans-Montana\""
+    },
+    "commune": {
+      "valeur": "Lens",
+      "source": "https://fr.airbnb.ch/rooms/1761780411178216809",
+      "date": "2026-11-05",
+      "statut": "C",
+      "extrait": "Appartements à louer à Lens, Valais, Suisse",
+      "note": "la station Crans-Montana (Crans-sur-Sierre) est sur la commune de Lens ; Airbnb et Booking affichent Lens : précision, pas un écart"
+    },
+    "renovation_annee": {
+      "valeur": 2026,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "entièrement rénové en 2026"
+    },
+    "garage": {
+      "valeur": "box fermé au parking du Mérignou, en face de l'immeuble",
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Garage fermé | Un box au parking du Mérignou, juste en face de l’entrée"
+    },
+    "prix_semaine_public_chf": {
+      "valeur": 1960,
+      "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "à partir de CHF 1'960.-/semaine",
+      "note": "charges, linge, internet, vaisselle et garage compris"
+    },
+    "langues_site": {
+      "valeur": [
+        "fr",
+        "en",
+        "de",
+        "it",
+        "ru"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "href=\"https://richemont3b.ch/it/\" (+ /de/ /ru/ /en/)"
+    }
+  },
+  "surfaces_connues_m2": [
+    74,
+    73.8,
+    68,
+    11.5,
+    16,
+    1000
+  ],
+  "surfaces_connues_detail": {
+    "74": "appartement utile (site)",
+    "73.8": "surface utile précise (ImmoCrans)",
+    "68": "surface habitable (ImmoCrans)",
+    "11.5": "terrasse sud (site, ImmoCrans)",
+    "16": "près de 16 m² d'espaces extérieurs (site)",
+    "1000": "jardin de plus de 1 000 m² (site)"
+  },
+  "prix_admis_chf": [
+    1960,
+    280
+  ],
+  "prix_admis_note": "280 = 1960/7 par nuit, dérivé",
+  "equipements": [
+    {
+      "cle": "garage",
+      "mots": [
+        "garage",
+        "box",
+        "parking",
+        "Garage",
+        "Parkplatz",
+        "Box",
+        "parcheggio",
+        "гараж",
+        "парковк"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Garage fermé | Un box au parking du Mérignou"
+    },
+    {
+      "cle": "internet",
+      "mots": [
+        "internet",
+        "wifi",
+        "wi-fi",
+        "Internet",
+        "WLAN",
+        "интернет",
+        "Wi-Fi",
+        "вай-фай"
+      ],
+      "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Linge de maison, vaisselle, TV et internet"
+    },
+    {
+      "cle": "lave_linge",
+      "mots": [
+        "lave-linge",
+        "lave linge",
+        "washer",
+        "washing machine",
+        "machine à laver",
+        "Waschmaschine",
+        "lavatrice",
+        "стиральн"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Lave-linge et sèche-linge encastrés et isolés"
+    },
+    {
+      "cle": "seche_linge",
+      "mots": [
+        "sèche-linge",
+        "seche-linge",
+        "dryer",
+        "séchant",
+        "Trockner",
+        "Wäschetrockner",
+        "asciugatrice",
+        "сушильн"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Lave-linge et sèche-linge encastrés et isolés"
+    },
+    {
+      "cle": "lave_vaisselle",
+      "mots": [
+        "lave-vaisselle",
+        "dishwasher",
+        "Geschirrspüler",
+        "lavastoviglie",
+        "посудомоечн"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Lave-vaisselle entièrement intégré"
+    },
+    {
+      "cle": "four_vapeur",
+      "mots": [
+        "four vapeur",
+        "four",
+        "steam oven",
+        "oven",
+        "micro-ondes",
+        "microwave",
+        "Dampfgarer",
+        "Backofen",
+        "Mikrowelle",
+        "forno a vapore",
+        "forno",
+        "microonde",
+        "пароварк",
+        "духов",
+        "микроволнов"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Four professionnel : traditionnel, vapeur et micro-ondes"
+    },
+    {
+      "cle": "tv",
+      "mots": [
+        "tv",
+        "télé",
+        "téléviseur",
+        "oled",
+        "television",
+        "Fernseher",
+        "TV",
+        "televisore",
+        "телевизор"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Téléviseur OLED, système Sony, enceintes et caisson de basses."
+    },
+    {
+      "cle": "balcon",
+      "mots": [
+        "balcon",
+        "balcons",
+        "balcony",
+        "balconies",
+        "terrasse",
+        "terrace",
+        "Balkon",
+        "Balkone",
+        "Terrasse",
+        "balcone",
+        "balconi",
+        "terrazza",
+        "балкон",
+        "терраса"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Le balcon nord regarde les montagnes et la piste de Chetseron. Au sud, une terrasse de 11,5 m²"
+    },
+    {
+      "cle": "triple_vitrage",
+      "mots": [
+        "triple vitrage",
+        "triple glazing",
+        "Dreifachverglasung",
+        "triplo vetro",
+        "tripli vetri",
+        "тройное остеклен",
+        "тройной остеклен",
+        "тройным остеклен"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Triple vitrage acoustique haute performance"
+    },
+    {
+      "cle": "linge",
+      "mots": [
+        "linge",
+        "linen",
+        "towels",
+        "serviettes",
+        "vaisselle",
+        "Bettwäsche",
+        "Handtücher",
+        "biancheria",
+        "asciugamani",
+        "бельё",
+        "белье",
+        "полотенц"
+      ],
+      "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Linge de maison, vaisselle, TV et internet"
+    },
+    {
+      "cle": "lit_gigogne",
+      "mots": [
+        "lit gigogne",
+        "trundle",
+        "Ausziehbett",
+        "letto estraibile",
+        "выдвижная кроват",
+        "выдвижной кроват"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "un lit gigogne permet d’y dormir à trois"
+    },
+    {
+      "cle": "geberit",
+      "mots": [
+        "geberit",
+        "aquaclean",
+        "wc lavant",
+        "Dusch-WC"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "WC lavant Geberit AquaClean"
+    },
+    {
+      "cle": "jardin",
+      "mots": [
+        "jardin",
+        "garden",
+        "Garten",
+        "giardino",
+        "сад"
+      ],
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Accès à un jardin de plus de 1 000 m²"
+    }
+  ],
+  "absents": [
+    {
+      "cle": "piscine",
+      "mots": [
+        "piscine",
+        "pool",
+        "swimming pool",
+        "Schwimmbad",
+        "Pool",
+        "piscina",
+        "бассейн"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "sauna",
+      "mots": [
+        "sauna",
+        "сауна"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "jacuzzi",
+      "mots": [
+        "jacuzzi",
+        "spa",
+        "hot tub",
+        "bain à remous",
+        "Whirlpool",
+        "Jacuzzi",
+        "idromassaggio",
+        "джакузи"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "cheminee",
+      "mots": [
+        "cheminée",
+        "cheminee",
+        "fireplace",
+        "Kamin",
+        "camino",
+        "caminetto",
+        "камин"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "climatisation",
+      "mots": [
+        "climatisation",
+        "clim",
+        "air conditioning",
+        "air-conditioning",
+        "a/c",
+        "Klimaanlage",
+        "aria condizionata",
+        "climatizzatore",
+        "кондиционер"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "animaux",
+      "mots": [
+        "animaux acceptés",
+        "pets allowed",
+        "chien",
+        "dog",
+        "Haustiere",
+        "animali",
+        "животны",
+        "питомц",
+        "Hunde",
+        "Hund",
+        "cani",
+        "cane",
+        "pets are welcome",
+        "pets welcome",
+        "pet friendly",
+        "pet-friendly",
+        "animaux admis",
+        "собак"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    },
+    {
+      "cle": "ski_in",
+      "mots": [
+        "ski-in",
+        "ski in",
+        "ski-out",
+        "skis aux pieds",
+        "Ski-in"
+      ],
+      "statut": "non annoncé",
+      "source": "site + ImmoCrans + Airbnb (HTML)",
+      "date": "2026-11-05",
+      "note": "absent des annonces relues ; ne veut pas dire que cela n'existe pas"
+    }
+  ],
+  "absents_retires": [
+    {
+      "cle": "ascenseur",
+      "raison": "le bloc « Commodités » d'ImmoCrans liste « Ascenseur » parmi ses cases (liste générique non rattachée à ce bien : elle contient aussi « Double vitrage »), donc non démontrable absent ; retiré par prudence"
+    }
+  ],
+  "lieux": [
+    {
+      "nom": "Crans-Montana"
+    },
+    {
+      "nom": "Crans"
+    },
+    {
+      "nom": "Montana"
+    },
+    {
+      "nom": "Lens",
+      "note": "commune"
+    },
+    {
+      "nom": "Valais"
+    },
+    {
+      "nom": "Mérignou"
+    },
+    {
+      "nom": "Cry d'Er"
+    },
+    {
+      "nom": "Coop"
+    },
+    {
+      "nom": "golf"
+    },
+    {
+      "nom": "Sierre"
+    },
+    {
+      "nom": "Pas-de-l'Ours"
+    },
+    {
+      "nom": "Кран-Монтана"
+    },
+    {
+      "nom": "Кран"
+    },
+    {
+      "nom": "Монтана"
+    },
+    {
+      "nom": "Ленс"
+    },
+    {
+      "nom": "Вале"
+    }
+  ],
+  "distances": [
+    {
+      "vers": "télécabine",
+      "mots": [
+        "télécabine",
+        "telecabine",
+        "cry d'er",
+        "gondola",
+        "remontée",
+        "ski",
+        "Gondel",
+        "Seilbahn",
+        "Skilift",
+        "funivia",
+        "cabinovia",
+        "impianti",
+        "подъёмник",
+        "канатн",
+        "гондол",
+        "лыж"
+      ],
+      "minutes": 4,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "La télécabine à 4 min",
+      "note": "autres canaux : Airbnb « Ski à 3 min », Booking « Golf or Ski 8 min walk » : précisions, pas des écarts"
+    },
+    {
+      "vers": "golf",
+      "mots": [
+        "golf",
+        "Golfplatz",
+        "гольф"
+      ],
+      "minutes": 7,
+      "mode": "à pied",
+      "km": 0.5,
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "Golf Club Crans-sur-Sierre | 0,5 km · env. 7 min à pied"
+    },
+    {
+      "vers": "Coop",
+      "mots": [
+        "coop",
+        "supermarché",
+        "supermarket",
+        "Supermarkt",
+        "supermercato",
+        "супермаркет"
+      ],
+      "minutes": 0,
+      "note": "en face",
+      "source": "https://richemont3b.ch/fr/",
+      "date": "2026-11-05",
+      "statut": "C-HTML",
+      "extrait": "La Coop en face."
+    }
+  ],
+  "lieux_autres": [
+    "Zermatt",
+    "Verbier",
+    "Saas-Fee",
+    "Nendaz",
+    "Anzère",
+    "Leukerbad",
+    "Loèche-les-Bains",
+    "Sion",
+    "Zürich",
+    "Zurich",
+    "Genève",
+    "Geneva",
+    "Genf",
+    "Ginevra",
+    "Lausanne",
+    "Montreux",
+    "Gstaad",
+    "Davos",
+    "St. Moritz",
+    "Saint-Moritz",
+    "Villars",
+    "Champéry",
+    "Les Diablerets",
+    "Leysin",
+    "Grimentz",
+    "Цермат",
+    "Церматт",
+    "Женева",
+    "Цюрих"
+  ]
+}

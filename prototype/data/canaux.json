@@ -1,0 +1,255 @@
+[
+ {
+  "canal": "site",
+  "champ": "description",
+  "texte": "Une même attention à l’espace, aux matières et au confort. Découvrez ici Richemont 3B, entièrement rénové en 2026 : 74 m² pour cinq personnes, deux chambres et deux salles d’eau.",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML (JSON-LD)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "Nos appartements au cœur de Crans-Montana, entre la télécabine de Cry d’Er, le golf et les pins.",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "La Coop en face. La télécabine à 4 min. Le triple vitrage acoustique pour rester au calme.",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "Au sud, une terrasse de 11,5 m² s’ouvre sur les pins, les écureuils et un jardin de plus de 1 000 m² où les enfants peuvent courir l’été et faire des bonshommes de neige l’hiver.",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Disponible en location vacances à partir de CHF 1'960.-/semaine.",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Surface habitable 68 m²",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": [
+   {
+    "type": "surface",
+    "statut": "precision",
+    "valeur": 68
+   }
+  ]
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Surface utile 73.8 m²",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Capacité totale : 4 à 5 personnes.",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": [
+   {
+    "type": "capacite",
+    "statut": "precision",
+    "valeur": "4 à 5"
+   }
+  ]
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Chambres 2",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Étage 1er étage",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "airbnb",
+  "champ": "titre",
+  "texte": "Richemont 3 chambres • Ski à 3 min • Standing • Garage - Appartements à louer à Lens, Valais, Suisse - Airbnb",
+  "source": "https://fr.airbnb.ch/rooms/1761780411178216809",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML (balise title)",
+  "ecarts_attendus": [
+   {
+    "type": "chambres",
+    "statut": "contredit",
+    "valeur": 3
+   },
+   {
+    "type": "distance",
+    "statut": "precision",
+    "valeur": 3
+   }
+  ]
+ },
+ {
+  "canal": "airbnb",
+  "champ": "og_title",
+  "texte": "Appartement · Lens · ★Nouveau · 2 chambres · 5 lits · 2 salles de bain",
+  "source": "https://fr.airbnb.ch/rooms/1761780411178216809",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML (og:title)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "airbnb",
+  "champ": "description",
+  "texte": "Richemont 3 chambres • Ski à 3 min • Standing • Garage",
+  "source": "https://fr.airbnb.ch/rooms/1761780411178216809",
+  "date": "2026-11-05",
+  "comment_lu": "curl HTML (og:description)",
+  "ecarts_attendus": [
+   {
+    "type": "chambres",
+    "statut": "contredit",
+    "valeur": 3
+   },
+   {
+    "type": "distance",
+    "statut": "precision",
+    "valeur": 3
+   }
+  ]
+ },
+ {
+  "canal": "booking",
+  "champ": "titre",
+  "texte": "Richemont 3B - Golf or Ski 8 min walk - High Standing - Garage",
+  "source": "https://www.booking.com/hotel/ch/richemont-3b-golf-8-min-away-high-standing-garage.html",
+  "date": "2026-11-05",
+  "comment_lu": "page rendue (navigateur, d'après mesure-et-fiche.md)",
+  "ecarts_attendus": [
+   {
+    "type": "distance",
+    "statut": "precision",
+    "valeur": 8
+   }
+  ]
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "2 balcons",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL HTML visible (« 2 » puis « balcons »)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "Garage fermé",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL HTML (intertitre)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "ligne",
+  "texte": "Un box au parking du Mérignou, juste en face de l’entrée : vous arrivez au sec et la voiture reste à l’abri de la neige, même pendant une tempête.",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL HTML",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "site",
+  "champ": "adresse",
+  "texte": "Rue du Pas-de-l’Ours 3B, 3963 Crans-Montana",
+  "source": "https://richemont3b.ch/fr/",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL HTML (JSON-LD PostalAddress : streetAddress, postalCode, addressLocality)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Dernières rénovations 2026",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL -A Mozilla/5.0 HTML (tableau « Dernières rénovations | 2026 »)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Pièces 3.5",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL -A Mozilla/5.0 HTML (tableau « Pièces | 3.5 »)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Garage box privatif dans le parking en face de l'immeuble;",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL -A Mozilla/5.0 HTML (liste « Autres informations importantes »)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "immocrans",
+  "champ": "ligne",
+  "texte": "Un garage box dans le parking du Merignou est compris.",
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL -A Mozilla/5.0 HTML (description)",
+  "ecarts_attendus": []
+ },
+ {
+  "canal": "airbnb",
+  "champ": "description_annonce",
+  "texte": "À Crans-Montana, Richemont 3B réunit design alpin, confort familial et emplacement exceptionnel. Entièrement rénové, cet appartement de 74 m² accueille 5 voyageurs avec 2 chambres, 2 salles d’eau, une cuisine équipée, de nombreux rangements et un grand balcon sud face aux pins. Un box garage est inclus : laissez-y la voiture et profitez de Crans à pied. Coop en face, télécabine de Cry d’Er à 4 min et Golf Club à environ 8 min.",
+  "source": "https://fr.airbnb.ch/rooms/1761780411178216809",
+  "date": "2026-11-05",
+  "comment_lu": "curl -sL -A Mozilla/5.0 HTML (JSON de la page : champ « description » de l'annonce)",
+  "ecarts_attendus": [
+   {
+    "type": "distance",
+    "statut": "precision",
+    "valeur": 8
+   }
+  ]
+ }
+]

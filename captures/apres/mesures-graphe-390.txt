@@ -1,0 +1,2 @@
+echelle SVG 1.00 ; 18 étiquettes visibles : déc.=12.5px/h17.0 ; févr.=12.5px/h17.0 ; avr.=12.5px/h17.0 ; juin=12.5px/h17.0 ; août=12.5px/h17.0 ; oct.=12.5px/h17.0 ; 155=12.5px/h17.0 ; 390=12.5px/h17.0 ; Mondiaux 2027 · CHF 280=17.0px/h24.0 ; 265=12.5px/h17.0 ; 195=12.5px/h17.0 ; 210=12.5px/h17.0 ; 230=12.5px/h17.0 ; Fêtes=12.5px/h17.0 ; Février=12.5px/h17.0 ; Été=12.5px/h17.0 ; Masters=12.5px/h17.0 ; prix public 280=13.0px/h18.0
+instants réels (ms après __rejouerCrete) : t0=592 t500=1461 t1500=2089 t3000=3596

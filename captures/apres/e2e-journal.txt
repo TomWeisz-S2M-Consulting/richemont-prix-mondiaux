@@ -1,0 +1,40 @@
+# Journal des contrôles de bout en bout (npm run e2e), 2026-11-10 12:31, Chrome via Playwright, Node v24.21.0, serveur propre sur port libre, accueil en scène de nuit (refonte v5)
+OK  1 Avant : trois liens sortants, aucun prix
+OK  2a Réserver : prix public 1'960 visible
+OK  2b Deux dates libres : 3 nuits · libre
+OK  2c Formulaire : erreur e-mail puis relecture
+OK  2d Double clic Envoyer : un seul numéro et un seul enregistrement
+OK  2e Mêmes données : doublon affiché, toujours 1 demande
+OK  3 Sept nuits : aiguillage ImmoCrans et récap copiable
+OK  4 Séjour pris : conflit, pas d'envoi actif
+OK  7 FAQ : 8 details, ouverture montre la source
+OK  8 Échap ferme le panneau et rend le focus au bouton
+OK  2f Vue hôte : 1 demande
+OK  5a Vérificateur : titre Airbnb contredit, deux balises, envoi bloqué
+OK  5b Brouillon IA piégé : bloqué
+OK  5c Brouillon correct : verdict ok, bouton actif
+OK  6 de 1280 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 it 1280 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 ru 1280 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 en 1280 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 de 390 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 it 390 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 ru 390 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  6 en 390 : titre traduit et aucun débordement (accueil, panneau, réponse, hôte)
+OK  10a Accueil : vignette Mondiaux 465 et 280
+OK  10b Clic vignette : calendrier, période Mondiaux dépliée
+OK  10c Calendrier : 11 lignes, 8 avec prix, 3 sur demande sans chiffre de prix
+OK  10d Phrase de tête : 6 nuits sur 10
+OK  10e Ligne Mondiaux : 465, 7 annonces, biais, extrapolation, deux lignes voyageur / net hôte
+OK  10f Détail Mondiaux : 7 annonces, 7 liens http, aucune balise img
+OK  10g Gain : 3 scénarios, deltas signés, 8 invalidations
+OK  10h Copier la proposition ImmoCrans : Mondiaux et 465
+OK  10i Calendrier : aucune chaîne null / undefined / NaN
+OK  10j Panneau 6→13 févr. 2027 : 3'255, 465, 7 annonces, sans net hôte (vue visiteur)
+OK  10k Panneau 10→13 janv. 2027 : sur demande
+OK  10l Panneau 8→17 févr. 2027 (à cheval) : 3'785
+OK  10m Mondiaux retenu 480 + « Utiliser ces prix » : panneau 7 nuits = 3'360
+OK  10n Vérificateur : 700 CHF la nuit -> précision ; 465 CHF la semaine -> pas confirmé
+OK  10o 390 px : calendrier, détail ouvert, gain sans débordement
+OK  9 Aucune erreur console sur tout le parcours
+38/38 contrôles OK en 172.1 s

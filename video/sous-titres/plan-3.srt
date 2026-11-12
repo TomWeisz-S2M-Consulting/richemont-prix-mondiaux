@@ -1,0 +1,35 @@
+1
+00:00:00,300 --> 00:00:03,428
+Voici un calendrier de prix sur onze
+périodes.
+
+2
+00:00:03,428 --> 00:00:08,868
+Chaque barre vient d'annonces publiques
+comparables, relevées le cinq novembre :
+
+3
+00:00:08,868 --> 00:00:11,044
+borne basse, cible, borne haute.
+
+4
+00:00:11,044 --> 00:00:13,424
+La phrase du haut dit l'essentiel :
+
+5
+00:00:13,424 --> 00:00:18,932
+aux Mondiaux, six nuits sur dix à quatre
+cent soixante-cinq rapportent autant que
+
+6
+00:00:18,932 --> 00:00:21,856
+toutes les nuits à deux cent
+quatre-vingts.
+
+7
+00:00:21,856 --> 00:00:24,100
+Et chaque période a sa décision :
+
+8
+00:00:24,100 --> 00:00:26,140
+monter, ou garder le plancher.

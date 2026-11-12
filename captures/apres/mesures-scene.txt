@@ -1,0 +1,7 @@
+Chrome sans écran, args SwiftShader (--use-angle=swiftshader --enable-unsafe-swiftshader --use-gl=angle --ignore-gpu-blocklist)
+largeur 1280 : renderer WebGL = ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver) ; data-scene = ready ; .scene.fixe affichée = false ; scrollWidth 1280 / innerWidth 1280
+   instants réels des captures (ms après l'appel de __rejouerCrete) : t0=1625 t500=3454 t1500=5348 t3000=6958
+   après défilement : scrollWidth 1280 / innerWidth 1280
+largeur 390 : renderer WebGL = ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver) ; data-scene = ready ; .scene.fixe affichée = false ; scrollWidth 390 / innerWidth 390
+   instants réels des captures (ms après l'appel de __rejouerCrete) : t0=592 t500=1461 t1500=2089 t3000=3596
+   après défilement : scrollWidth 390 / innerWidth 390

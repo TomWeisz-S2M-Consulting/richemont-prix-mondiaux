@@ -1,0 +1,31 @@
+1
+00:00:00,300 --> 00:00:02,243
+Je clique sur les Mondiaux.
+
+2
+00:00:02,243 --> 00:00:07,569
+Sept annonces à deux chambres, avec lien,
+total lu, prix par nuit et avis.
+
+3
+00:00:07,569 --> 00:00:12,104
+Les captures sont conservées hors dépôt,
+leur empreinte est là.
+
+4
+00:00:12,104 --> 00:00:16,063
+Le relevé couvre sept nuits sur quatorze,
+et il le dit.
+
+5
+00:00:16,063 --> 00:00:17,358
+Canal recommandé :
+
+6
+00:00:17,358 --> 00:00:22,468
+ImmoCrans dès sept nuits, avec le net
+hôte, commissions affichées comme
+
+7
+00:00:22,468 --> 00:00:23,260
+hypothèses.

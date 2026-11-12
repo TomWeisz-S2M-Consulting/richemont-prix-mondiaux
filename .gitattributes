@@ -1,0 +1,14 @@
+# Fichiers de travail interne, exclus de toute archive publique (git archive / export)
+travail/ export-ignore
+etape-*.md export-ignore
+*.pret export-ignore
+ORIENTATIONS.md export-ignore
+DOSSIER-FINAL.md export-ignore
+besoin-images.md export-ignore
+question-*.md export-ignore
+TERMINE export-ignore
+captures/avant/avant-airbnb*.png export-ignore
+video/brut/ export-ignore
+video/rendu/ export-ignore
+video/rendu_tmp/ export-ignore
+video/apercu-muet.mp4 export-ignore

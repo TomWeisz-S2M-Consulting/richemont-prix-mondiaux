@@ -1,0 +1,272 @@
+{
+  "prixPlancherNuit": {
+    "valeur": 280,
+    "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+    "note": "1'960 / 7",
+    "statut": "C"
+  },
+  "nMin": {
+    "valeur": 5,
+    "statut": "H"
+  },
+  "arrondi": 5,
+  "commissions": {
+    "airbnb": {
+      "valeur": 0.155,
+      "statut": "H"
+    },
+    "booking": {
+      "valeur": 0.15,
+      "statut": "H"
+    },
+    "immocrans": {
+      "prudent": 0.25,
+      "central": 0.2,
+      "haut": 0.15,
+      "statut": "H"
+    },
+    "directFrais": {
+      "valeur": 0.02,
+      "statut": "H"
+    }
+  },
+  "seuilImmoCrans": 7,
+  "scenarios": {
+    "prudent": {
+      "nom": {
+        "fr": "Demande faible",
+        "en": "Low demand",
+        "de": "Geringe Nachfrage",
+        "it": "Domanda bassa",
+        "ru": "Низкий спрос"
+      },
+      "occupation": {
+        "automne26": {
+          "plancher": 0.1,
+          "cible": 0.25,
+          "statut": "H"
+        },
+        "preouv": {
+          "plancher": 0.2,
+          "cible": 0.35,
+          "statut": "H"
+        },
+        "fetes": {
+          "plancher": 0.75,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "janv": {
+          "plancher": 0.4,
+          "cible": 0.4,
+          "statut": "H"
+        },
+        "mondiaux": {
+          "plancher": 0.75,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "fevrier": {
+          "plancher": 0.6,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "mars": {
+          "plancher": 0.35,
+          "cible": 0.5,
+          "statut": "H"
+        },
+        "printemps": {
+          "plancher": 0.05,
+          "cible": 0.05,
+          "statut": "H"
+        },
+        "ete": {
+          "plancher": 0.3,
+          "cible": 0.45,
+          "statut": "H"
+        },
+        "oem": {
+          "plancher": 0.5,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "automne27": {
+          "plancher": 0.05,
+          "cible": 0.05,
+          "statut": "H"
+        }
+      },
+      "parts": {
+        "immocrans": 0.7,
+        "plateformes": 0.3,
+        "direct": 0
+      },
+      "nuitsProprietaire": 21,
+      "statut": "H"
+    },
+    "central": {
+      "nom": {
+        "fr": "Demande moyenne",
+        "en": "Medium demand",
+        "de": "Mittlere Nachfrage",
+        "it": "Domanda media",
+        "ru": "Средний спрос"
+      },
+      "occupation": {
+        "automne26": {
+          "plancher": 0.2,
+          "cible": 0.35,
+          "statut": "H"
+        },
+        "preouv": {
+          "plancher": 0.3,
+          "cible": 0.45,
+          "statut": "H"
+        },
+        "fetes": {
+          "plancher": 0.85,
+          "cible": 0.7,
+          "statut": "H"
+        },
+        "janv": {
+          "plancher": 0.5,
+          "cible": 0.5,
+          "statut": "H"
+        },
+        "mondiaux": {
+          "plancher": 0.85,
+          "cible": 0.7,
+          "statut": "H"
+        },
+        "fevrier": {
+          "plancher": 0.7,
+          "cible": 0.7,
+          "statut": "H"
+        },
+        "mars": {
+          "plancher": 0.45,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "printemps": {
+          "plancher": 0.15,
+          "cible": 0.15,
+          "statut": "H"
+        },
+        "ete": {
+          "plancher": 0.4,
+          "cible": 0.55,
+          "statut": "H"
+        },
+        "oem": {
+          "plancher": 0.6,
+          "cible": 0.7,
+          "statut": "H"
+        },
+        "automne27": {
+          "plancher": 0.15,
+          "cible": 0.15,
+          "statut": "H"
+        }
+      },
+      "parts": {
+        "immocrans": 0.7,
+        "plateformes": 0.3,
+        "direct": 0
+      },
+      "nuitsProprietaire": 21,
+      "statut": "H"
+    },
+    "haut": {
+      "nom": {
+        "fr": "Demande forte",
+        "en": "High demand",
+        "de": "Hohe Nachfrage",
+        "it": "Domanda alta",
+        "ru": "Высокий спрос"
+      },
+      "occupation": {
+        "automne26": {
+          "plancher": 0.3,
+          "cible": 0.45,
+          "statut": "H"
+        },
+        "preouv": {
+          "plancher": 0.4,
+          "cible": 0.55,
+          "statut": "H"
+        },
+        "fetes": {
+          "plancher": 0.95,
+          "cible": 0.8,
+          "statut": "H"
+        },
+        "janv": {
+          "plancher": 0.6,
+          "cible": 0.6,
+          "statut": "H"
+        },
+        "mondiaux": {
+          "plancher": 0.95,
+          "cible": 0.8,
+          "statut": "H"
+        },
+        "fevrier": {
+          "plancher": 0.8,
+          "cible": 0.8,
+          "statut": "H"
+        },
+        "mars": {
+          "plancher": 0.55,
+          "cible": 0.7,
+          "statut": "H"
+        },
+        "printemps": {
+          "plancher": 0.25,
+          "cible": 0.25,
+          "statut": "H"
+        },
+        "ete": {
+          "plancher": 0.5,
+          "cible": 0.65,
+          "statut": "H"
+        },
+        "oem": {
+          "plancher": 0.7,
+          "cible": 0.8,
+          "statut": "H"
+        },
+        "automne27": {
+          "plancher": 0.25,
+          "cible": 0.25,
+          "statut": "H"
+        }
+      },
+      "parts": {
+        "immocrans": 0.7,
+        "plateformes": 0.3,
+        "direct": 0
+      },
+      "nuitsProprietaire": 21,
+      "statut": "H"
+    }
+  },
+  "sensibilitePrix": "non mesurée",
+  "invalidations": [
+    "Comparables non comparables (vue, étage, standing, distance réelle aux pistes ; « 2 chambres » mal déclaré, cf. titre Airbnb « 3 chambres »)",
+    "Prix dynamiques relevés aujourd'hui pour des dates lointaines : les plateformes peuvent afficher un prix d'attente bas ou haut, sans lien avec le prix final ; un relevé n'est pas une réservation conclue",
+    "Mondiaux : une part des lits est peut-être réservée en bloc par l'organisation, les équipes ou des agences, hors annonces publiques ; demande et prix publics biaisés, date du gel inconnue",
+    "Demande 2027 inconnue : aucun historique Richemont 3B (lancé en 2026, 2 commentaires) ; l'occupation est une pure hypothèse",
+    "Mandat ImmoCrans : s'il fixe les prix ou impose l'exclusivité de dates, la recommandation n'est qu'une proposition",
+    "Commission ImmoCrans inconnue ; parité tarifaire contractuelle éventuelle ; taxe de séjour (montant et collecteur non relus)",
+    "Saisonnalité du parc : nombre d'annonces actives différent selon la période, donc n petit hors saison",
+    "Frais inclus ou non dans les totaux relevés (Airbnb host-only : total proche du prix voyageur)"
+  ],
+  "occupation_note": "Occupations posées, pas mesurées : quand la cible du marché est sous le plancher (automne, préouverture, mars, été), l'occupation à la cible est posée plus haute qu'au plancher ; quand la cible est au-dessus (fêtes, Mondiaux, OEM), elle est posée plus basse. Sensibilité au prix non mesurée : Richemont 3B n'a pas d'historique (lancé en 2026).",
+  "regleComparaison": "Total Airbnb « au total » = prix payé par le voyageur, ménage et service intégrés dans le prix par nuit (relevé sur 6 annonces, frais non isolables) ; « dès CHF 1'960 / semaine » ImmoCrans = prix voyageur charges comprises ; les deux sont des prix voyageur et se comparent ; le net hôte = prix voyageur × (1 − commission du canal).",
+  "noteScenarios": {
+    "fr": "Un scénario décrit la demande (occupations posées), pas le gain ; à demande forte, l'occupation au plancher est déjà haute, donc le gain de la hausse est plus petit.",
+    "en": "A scenario describes demand (assumed occupancy), not the gain; when demand is strong, occupancy at the floor price is already high, so the gain from raising the price is smaller."
+  }
+}

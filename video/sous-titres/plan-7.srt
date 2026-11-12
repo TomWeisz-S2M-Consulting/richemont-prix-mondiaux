@@ -1,0 +1,27 @@
+1
+00:00:00,300 --> 00:00:05,272
+Côté visiteur, le bouton « Réserver »
+affiche les nuits libres et le prix.
+
+2
+00:00:05,272 --> 00:00:06,817
+Six au treize février :
+
+3
+00:00:06,817 --> 00:00:11,655
+le prix public ImmoCrans reste la
+référence, le repère marché est donné,
+
+4
+00:00:11,655 --> 00:00:16,762
+trois mille deux cent cinquante-cinq
+francs pour sept nuits, à confirmer par
+
+5
+00:00:16,762 --> 00:00:18,441
+l'agence, avec sa preuve.
+
+6
+00:00:18,441 --> 00:00:22,540
+La demande est relue avant l'envoi, et un
+doublon est bloqué.

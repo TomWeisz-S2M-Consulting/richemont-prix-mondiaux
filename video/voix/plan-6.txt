@@ -1,0 +1,1 @@
+Ce que ça change, en net pour l'hôte, selon trois scénarios de demande. Toutes les hypothèses sont visibles et modifiables. Et la liste de ce qui invaliderait ces chiffres reste affichée : annonces déjà réservées invisibles, prix demandés et non obtenus, mandat de l'agence.

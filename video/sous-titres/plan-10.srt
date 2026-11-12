@@ -1,0 +1,12 @@
+1
+00:00:00,300 --> 00:00:04,902
+Ce que je sais, ce que j'ai vérifié, et ce
+que je ne sais pas :
+
+2
+00:00:04,902 --> 00:00:06,582
+tout est dans le dépôt.
+
+3
+00:00:06,582 --> 00:00:07,020
+Merci.

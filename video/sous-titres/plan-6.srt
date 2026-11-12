@@ -1,0 +1,23 @@
+1
+00:00:00,300 --> 00:00:05,096
+Ce que ça change, en net pour l'hôte,
+selon trois scénarios de demande.
+
+2
+00:00:05,096 --> 00:00:08,542
+Toutes les hypothèses sont visibles et
+modifiables.
+
+3
+00:00:08,542 --> 00:00:12,865
+Et la liste de ce qui invaliderait ces
+chiffres reste affichée :
+
+4
+00:00:12,865 --> 00:00:17,932
+annonces déjà réservées invisibles, prix
+demandés et non obtenus, mandat de
+
+5
+00:00:17,932 --> 00:00:18,540
+l'agence.

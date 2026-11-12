@@ -1,0 +1,22 @@
+{
+ "prixSemainePublic": {
+  "chf": 1960,
+  "source": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "date": "2026-11-05",
+  "inclus": "charges, linge, internet, vaisselle, garage"
+ },
+ "tarifsHote": null,
+ "seuilImmoCrans": 7,
+ "canalDirect": true,
+ "taxeSejour": {
+  "chfAdulteNuit": 3,
+  "statut": "H",
+  "note": "hors prix, non relue sur le règlement",
+  "lien": "https://crans.iomedia.ch/media/document/0/reglement-sur-la-taxe-de-sejour-crans-montana-1.pdf"
+ },
+ "liens": {
+  "immocrans": "https://www.immocrans.ch/fr/o/a-louer-appartement-de-vacances-crans-montana-5405749",
+  "airbnb": "https://fr.airbnb.ch/rooms/1761780411178216809",
+  "booking": "https://www.booking.com/hotel/ch/richemont-3b-golf-8-min-away-high-standing-garage.html"
+ }
+}

@@ -1,0 +1,36 @@
+1
+00:00:00,300 --> 00:00:04,423
+Tout texte qui sort passe par une fiche de
+vérité sourcée.
+
+2
+00:00:04,423 --> 00:00:07,551
+Je colle le titre réel de l'annonce Airbnb
+:
+
+3
+00:00:07,551 --> 00:00:08,901
+« trois chambres ».
+
+4
+00:00:08,901 --> 00:00:13,024
+La même page dit « deux chambres » dans
+une autre balise ;
+
+5
+00:00:13,024 --> 00:00:14,304
+la fiche dit deux.
+
+6
+00:00:14,304 --> 00:00:17,716
+Un brouillon qui parle d'une piscine est
+bloqué.
+
+7
+00:00:17,716 --> 00:00:22,763
+Un prix hors des bornes de sa période
+devient une précision à apporter.
+
+8
+00:00:22,763 --> 00:00:23,900
+En cinq langues.

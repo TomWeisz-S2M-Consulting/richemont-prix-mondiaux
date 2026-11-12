@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Richemont 3B · Le bon prix pour chaque date</title>
+<meta name="description" content="Démo : le bon prix pour chaque date, avec la preuve derrière, pour Richemont 3B, Crans-Montana. Prix : relevé public du 05/11/2026 ; disponibilités synthétiques.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23183b34%27/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/source-serif-4-normal-300_700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-normal-200_800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<div class="light" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+<a class="evitement" href="#principal" id="evitement">Aller au contenu</a>
+
+<header class="entete" id="entete">
+  <a class="marque" href="#" id="marque" aria-label="Richemont 3B, Crans-Montana">
+    <svg class="blason" viewBox="0 0 40 46" aria-hidden="true" focusable="false"><path d="M20 2 37 8v14c0 11-7 18-17 22C10 40 3 33 3 22V8z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 28l7-9 4 5 3-4 10 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><text x="20" y="18.5" text-anchor="middle" font-family="Source Serif 4, serif" font-size="15" font-weight="600" fill="currentColor">3B</text></svg>
+    <span class="marque-nom">Richemont 3B</span>
+    <span class="marque-lieu" id="marque-lieu">Crans-Montana</span>
+  </a>
+  <nav class="menu" id="menu" aria-label="Site">
+    <button type="button" class="menu-lien" id="bt-prix" data-action="prix">Prix</button>
+    <button type="button" class="menu-lien" id="bt-verif" data-action="verif">Vérifier</button>
+    <button type="button" class="menu-lien" id="bt-appart" data-action="hote">Appartement</button>
+  </nav>
+  <div class="entete-actions">
+    <div class="langues" role="group" aria-label="Langue">
+      <button type="button" class="langue" data-langue="fr" aria-pressed="true">FR</button>
+      <button type="button" class="langue" data-langue="en" aria-pressed="false">EN</button>
+      <button type="button" class="langue" data-langue="de" aria-pressed="false">DE</button>
+      <button type="button" class="langue" data-langue="it" aria-pressed="false">IT</button>
+      <button type="button" class="langue" data-langue="ru" aria-pressed="false">RU</button>
+    </div>
+    <select class="langue-select" id="langue-select" aria-label="Langue">
+      <option value="fr">FR</option><option value="en">EN</option><option value="de">DE</option><option value="it">IT</option><option value="ru">RU</option>
+    </select>
+    <button type="button" class="bouton bouton-plein" id="bt-reserver" data-action="reserver">Réserver</button>
+  </div>
+</header>
+<div class="bandeau-ia" id="bandeau-ia" role="note" hidden><span id="bandeau-txt"></span><button type="button" class="bouton bouton-texte" id="bandeau-ok">OK</button></div>
+
+<main id="principal" tabindex="-1">
+  <section class="accueil" id="v-accueil" aria-labelledby="titre-accueil">
+    <section class="nuit" id="nuit" aria-labelledby="titre-accueil">
+      <div class="scene" id="scene" aria-hidden="true"><canvas id="gl"></canvas><picture><source media="(max-width: 639px)" srcset="img/nuit-390.webp" width="390" height="844"><img src="img/nuit.webp" alt="" width="1280" height="800"></picture></div>
+      <div class="pic" id="pic" aria-hidden="true"><b class="num" id="pic-v"></b><small id="pic-s"></small><i id="pic-i"></i></div>
+      <div class="texte">
+        <h1 id="titre-accueil"><span class="g-ligne"><span>Le bon prix pour</span></span><span class="g-ligne"><span>chaque date, et la</span></span><span class="g-ligne"><span>preuve derrière.</span></span></h1>
+        <p class="lede" id="lede"></p>
+        <div class="actions">
+          <button type="button" class="bouton bouton-plein bouton-grand" id="bt-voir" data-action="prix">Voir le calendrier des prix</button>
+          <button type="button" class="bouton bouton-contour bouton-grand" id="bt-verif2" data-action="verif">Vérifier un texte</button>
+        </div>
+      </div>
+      <p class="nuit-leg" id="nuit-leg"></p>
+    </section>
+    <div class="hero">
+      <div class="cote">
+        <div class="rail" id="faits-fiche"></div>
+        <div class="preuve" id="preuve" aria-live="off"></div>
+      </div>
+      <section class="graphe" id="graphe" aria-labelledby="graphe-t">
+        <div class="graphe-tete"><h2 id="graphe-t"></h2></div>
+        <div class="plot" id="plot"></div>
+        <p class="graphe-sous" id="graphe-sous"></p>
+        <aside class="vignette" id="vignette" aria-label="Mondiaux"></aside>
+        <p class="graphe-leg" id="graphe-leg"></p>
+      </section>
+    </div>
+    <div class="demo" id="demo">
+  <button type="button" class="demo-bascule" id="demo-bascule" aria-expanded="false" aria-controls="demo-corps">Démo</button>
+  <div class="demo-corps" id="demo-corps">
+    <p class="demo-note" id="demo-note">Démo Tom Weisz · prix : relevé public du 05/11/2026 · disponibilités : synthétiques</p>
+    <div class="demo-pilule" role="radiogroup" aria-label="Démo : Avant ou Après" id="demo-groupe">
+      <span class="demo-titre" id="demo-titre">Démo :</span>
+      <button type="button" role="radio" class="demo-choix" data-mode="avant" aria-checked="false">Avant</button>
+      <button type="button" role="radio" class="demo-choix" data-mode="apres" aria-checked="true">Après</button>
+    </div>
+    <p class="demo-avant" id="demo-avant" hidden></p>
+    <button type="button" class="lien-methode" id="bt-methode" data-action="methode">Méthode et avant / après</button>
+  </div>
+</div>
+  </section>
+
+  <section class="page" id="v-methode" hidden aria-labelledby="titre-methode">
+    <div class="page-barre">
+      <button type="button" class="bouton bouton-texte" data-action="accueil" id="bt-retour-met"></button>
+      <button type="button" class="bouton bouton-texte" data-action="prix" id="bt-met-prix"></button>
+    </div>
+    <div class="methode-page" id="methode-contenu"></div>
+  </section>
+
+  <section class="page" id="v-prix" hidden aria-labelledby="titre-prix">
+    <div class="page-barre">
+      <button type="button" class="bouton bouton-texte" data-action="accueil" id="bt-retour-prix"></button>
+      <button type="button" class="bouton bouton-texte" data-action="hote" id="bt-prix-hote"></button>
+    </div>
+    <div class="prix" id="prix-contenu"></div>
+    <div class="bulle" id="bulle" role="tooltip" hidden></div>
+  </section>
+
+  <section class="page" id="v-reponse" hidden aria-labelledby="titre-reponse">
+    <div class="page-barre">
+      <button type="button" class="bouton bouton-texte" data-action="accueil" id="bt-retour-rep"></button>
+      <button type="button" class="bouton bouton-texte" data-action="hote" id="bt-vers-hote"></button>
+    </div>
+    <div class="rep-grille" id="rep-grille"></div>
+  </section>
+
+  <section class="page" id="v-hote" hidden aria-labelledby="titre-hote">
+    <div class="page-barre">
+      <button type="button" class="bouton bouton-texte" data-action="accueil" id="bt-retour-hote"></button>
+      <button type="button" class="bouton bouton-texte" data-action="prix" id="bt-hote-prix"></button>
+      <button type="button" class="bouton bouton-texte" data-action="reponse" id="bt-vers-rep"></button>
+    </div>
+    <div class="hote" id="hote-contenu"></div>
+  </section>
+</main>
+
+<div class="voile" id="voile" hidden></div>
+<aside class="panneau" id="panneau" role="dialog" aria-modal="true" aria-labelledby="p-titre" hidden>
+  <div class="p-tete">
+    <h2 id="p-titre" tabindex="-1">Vos dates</h2>
+    <button type="button" class="bouton bouton-texte p-fermer" id="p-fermer" data-action="fermer">
+      <svg viewBox="0 0 256 256" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M205.7 194.3a8 8 0 0 1-11.4 11.4L128 139.3l-66.3 66.4a8 8 0 0 1-11.4-11.4L116.7 128 50.3 61.7a8 8 0 0 1 11.4-11.4L128 116.7l66.3-66.4a8 8 0 0 1 11.4 11.4L139.3 128Z"/></svg>
+      <span id="p-fermer-txt">Fermer</span>
+    </button>
+  </div>
+  <div class="p-corps" id="p-corps"></div>
+  <div class="p-action" id="p-action"></div>
+</aside>
+
+<noscript><p class="sans-js">Cette démo demande JavaScript.</p></noscript>
+</body>
+</html>
